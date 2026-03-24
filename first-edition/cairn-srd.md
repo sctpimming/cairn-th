@@ -26,44 +26,44 @@ Players act as hardened adventurers exploring a dark & mysterious Wood filled wi
 {:toc}
 </details>
 
-## Overview
+## ภาพรวม
 
-**Cairn** was written with the following design philosophies in mind:
+**Cairn**  ถูกสร้างขึ้นโดยคำนึงถึงปรัชญาการออกแบบดังต่อไปนี้:
 
-### Neutrality
-The Warden's role is to portray the rules, situations, NPCs, and narrative clearly, while acting as a neutral arbiter.
+### ความเป็นกลาง
+บทบาทของ Warden คือการถ่ายทอดกฎ สถานการณ์ ตัวละคร NPC และเรื่องราวอย่างชัดเจน ในขณะที่ทำหน้าที่เป็นผู้ตัดสินที่เป็นกลาง
 
-### Classless
-A character's role or skills are not limited by a single class. Instead, the equipment they carry and their experiences define their specialty.
+### ไร้คลาส
+บทบาทหรือทักษะของตัวละครไม่ได้ถูกจำกัดด้วยคลาสเดียว แต่จะถูกกำหนดด้วยอุปกรณ์ที่พวกเขามีและประสบการณ์ของพวกเขา
 
-### Death
-Characters may be powerful, but they are also vulnerable to harm in its many forms. Death is always around the corner, but it is never random or without warning.
+### ความตาย
+ตัวละครอาจทรงพลัง แต่พวกเขาก็อ่อนแอต่ออันตรายในหลายรูปแบบ ความตายอยู่ใกล้แค่เอื้อมเสมอ แต่มันจะไม่เกิดขึ้นโดยบังเอิญหรือไม่มีสัญญาณเตือนล่วงหน้า
 
-### Fiction First
-Dice do not always reflect an obstacle's difficulty or its outcome. Instead, success and failure are arbitrated by the Warden in dialogue with the players, based on in-world elements.
+### เรื่องราวมาก่อน (Fiction first)
+ความยากหรือผลลัพธ์ของอุปสรรคไม่ได้ขึ้นกับลูกเต๋าเสมอไป แต่ความสำเร็จและความล้มเหลวจะถูกตัดสินโดย Warden ผ่านการสนทนากับผู้เล่นโดยอิงจากองค์ประกอบในโลกของเกม
 
-### Growth
-Characters are changed through in-world advancement, gaining new skills and abilities by surviving dangerous events and overcoming obstacles.
+### การเติบโต
+ตัวละครจะเปลี่ยนแปลงไปผ่านความก้าวหน้าในโลกของเกม ได้รับทักษะและความสามารถใหม่ ๆ โดยการเอาชีวิตรอดจากเหตุการณ์อันตรายและเอาชนะอุปสรรค
 
-### Player Choice
-Players should always understand the reasons behind the choices they've made, and information about potential risks should be provided freely and frequently.
+### ทางเลือกของผู้เล่น
+ผู้เล่นควรเข้าใจเหตุผลเบื้องหลังทางเลือกที่พวกเขาได้ทำลงไปเสมอ และควรหมั่นให้ข้อมูลเกี่ยวกับความเสี่ยงที่อาจเกิดขึ้นอย่างเปิดเผย
 
-### Principles
-The Warden and the players each have guidelines that help foster a specific play experience defined by critical thinking, exploration, and an emergent narrative.
+### หลักการ
+ผู้ดูแลและผู้เล่นแต่ละคนมีแนวทางที่ช่วยส่งเสริมประสบการณ์การเล่นเฉพาะที่เกิดจาก โดยการคิดเชิงวิเคราะห์ การสำรวจ และเรื่องราวที่เกิดขึ้นเอง (emergent narrative)
 
-### Shared Objectives
-Players trust one another to engage with the shared setting, character goals, and party challenges. Therefore, the party is typically working together towards a common goal, as a team.
+### เป้าหมายร่วมกัน
+ผู้เล่นไว้วางใจซึ่งกันและกันในการมีส่วนร่วมกับโลกในเกม เป้าหมายของตัวละคร และความท้าทายของกลุ่ม ดังนั้นโดยทั่วไปแล้วกลุ่มจะทำงานร่วมกันเพื่อบรรลุเป้าหมายร่วมกันในฐานะทีม
 
-[back to index](#index)
+[กลับไปที่สารบัญ](#index)
 <p></p>
 
-## Principles for Wardens
-### Information
-- Provide useful information about the game world as the characters explore it.
-- Players do not need to roll dice to learn about their circumstances.
+## หลักการสำหรับ Wardens
+### ข้อมูล
+- ให้ข้อมูลที่เป็นประโยชน์เกี่ยวกับโลกของเกมระหว่างการสำรวจของตัวละคร
+- ผู้เล่นไม่จำเป็นต้องทอยลูกเต๋าเพื่อรับรู้ถึงสถานการณ์ของพวกเขา
 - Be helpful and direct with your answers to their questions.
-- Respond honestly, describe consistently, and always let them know they can keep asking questions.
-
+- ตอบอย่างซื่อสัตย์ อธิบายอย่างสม่ำเสมอ และแจ้งให้ผู้เล่นทราบเสมอว่าสามารถถามคำถามต่อไปได้
+  
 ### Difficulty
 - Default to context and realism rather than numbers and mechanics.
 - If something the players want to do is sincerely impossible, no roll will allow them to do it.
@@ -193,43 +193,43 @@ If you would like something closer to traditional classes, refer to the list of 
 
 #### Female Names
 
-|||||||||
-|------|-----------|-----------|-----------|----------|---------|------|----------|
-|1     | Agune     |6          |Drelil     |11        |Lirann   |16    |Sybil     |
-|2     | Beatrice  |7          |Elgile     |12        |Lirathil |17    |Theune    |
-|3     | Breagan   |8          |Esme       |13        |Lisabeth |18    |Wenain    |
-|4     | Bronwyn   |9          |Griya      |14        |Moralil  |19    |Ygwal     |
-|5     | Cannora   |10         |Henaine    |15        |Morgwen  |20    |Yslen     |
+|     |          |     |         |     |          |     |        |
+| --- | -------- | --- | ------- | --- | -------- | --- | ------ |
+| 1   | Agune    | 6   | Drelil  | 11  | Lirann   | 16  | Sybil  |
+| 2   | Beatrice | 7   | Elgile  | 12  | Lirathil | 17  | Theune |
+| 3   | Breagan  | 8   | Esme    | 13  | Lisabeth | 18  | Wenain |
+| 4   | Bronwyn  | 9   | Griya   | 14  | Moralil  | 19  | Ygwal  |
+| 5   | Cannora  | 10  | Henaine | 15  | Morgwen  | 20  | Yslen  |
 
 #### Male Names
 
-|||||||||
-|------|-----------|-----------|-----------|----------|---------|------|----------|
-|1           |Arwel     |6          |Breglor    |11        |Grinwit  |16    |Melnax    |
-|2           |Bevan     |7          |Canhoreal  |12        |Gruwid   |17    |Orthax    |
-|3           |Boroth    |8          |Emrys      |13        |Gruwth   |18    |Triunein  |
-|4           |Borrid    |9          |Ethex      |14        |Gwestin  |19    |Wenlan    |
-|5           |Breagle   |10         |Gringle    |15        |Mannog   |20    |Yirmeor   |
+|     |         |     |           |     |         |     |          |
+| --- | ------- | --- | --------- | --- | ------- | --- | -------- |
+| 1   | Arwel   | 6   | Breglor   | 11  | Grinwit | 16  | Melnax   |
+| 2   | Bevan   | 7   | Canhoreal | 12  | Gruwid  | 17  | Orthax   |
+| 3   | Boroth  | 8   | Emrys     | 13  | Gruwth  | 18  | Triunein |
+| 4   | Borrid  | 9   | Ethex     | 14  | Gwestin | 19  | Wenlan   |
+| 5   | Breagle | 10  | Gringle   | 15  | Mannog  | 20  | Yirmeor  |
 
 #### Surnames
 
-|||||||||
-|------|-----------|-----------|-----------|----------|---------|------|----------|
-|1           |Abernathy |6          |Crumwaller |11        |Harper   |16    |Swinney   |
-|2           |Addercap  |7          |Dunswallow |12        |Loomer   |17    |Thatcher  |
-|3           |Burl      |8          |Getri      |13        |Malksmilk|18    |Tolmen    |
-|4           |Candlewick|9          |Glass      |14        |Smythe   |19    |Weaver    |
-|5           |Cormick   |10         |Harkness   |15        |Sunderman|20    |Wolder    |
+|     |            |     |            |     |           |     |          |
+| --- | ---------- | --- | ---------- | --- | --------- | --- | -------- |
+| 1   | Abernathy  | 6   | Crumwaller | 11  | Harper    | 16  | Swinney  |
+| 2   | Addercap   | 7   | Dunswallow | 12  | Loomer    | 17  | Thatcher |
+| 3   | Burl       | 8   | Getri      | 13  | Malksmilk | 18  | Tolmen   |
+| 4   | Candlewick | 9   | Glass      | 14  | Smythe    | 19  | Weaver   |
+| 5   | Cormick    | 10  | Harkness   | 15  | Sunderman | 20  | Wolder   |
 
 #### Background
 
-|||||||||
-|------|-----------|-----------|-----------|----------|---------|------|----------|
-|1           |Alchemist |6          |Cleric     |11        |Magician |16    |Performer |
-|2           |Blacksmith|7          |Gambler    |12        |Mercenary|17    |Pickpocket|
-|3           |Burglar   |8          |Gravedigger|13        |Merchant |18    |Smuggler  |
-|4           |Butcher   |9          |Herbalist  |14        |Miner    |19    |Servant   |
-|5           |Carpenter |10         |Hunter     |15        |Outlaw   |20    |Ranger    |
+|     |            |     |             |     |           |     |            |
+| --- | ---------- | --- | ----------- | --- | --------- | --- | ---------- |
+| 1   | Alchemist  | 6   | Cleric      | 11  | Magician  | 16  | Performer  |
+| 2   | Blacksmith | 7   | Gambler     | 12  | Mercenary | 17  | Pickpocket |
+| 3   | Burglar    | 8   | Gravedigger | 13  | Merchant  | 18  | Smuggler   |
+| 4   | Butcher    | 9   | Herbalist   | 14  | Miner     | 19  | Servant    |
+| 5   | Carpenter  | 10  | Hunter      | 15  | Outlaw    | 20  | Ranger     |
 
 <p></p>
 
@@ -237,103 +237,103 @@ If you would like something closer to traditional classes, refer to the list of 
 
 #### Physique
 
-|  |          |      |            |
-| -------- | -------- | ---- | ---------- |
-| 1        | Athletic | 6    | Scrawny    |
-| 2        | Brawny   | 7    | Short      |
-| 3        | Flabby   | 8    | Statuesque |
-| 4        | Lanky    | 9    | Stout      |
-| 5        | Rugged   | 10   | Towering   |
+|     |          |     |            |
+| --- | -------- | --- | ---------- |
+| 1   | Athletic | 6   | Scrawny    |
+| 2   | Brawny   | 7   | Short      |
+| 3   | Flabby   | 8   | Statuesque |
+| 4   | Lanky    | 9   | Stout      |
+| 5   | Rugged   | 10  | Towering   |
 
 #### Skin
 
-|  |            |      |           |
-| ---- | ---------- | ---- | --------- |
-| 1    | Birthmark  | 6    | Round     |
-| 2    | Dark       | 7    | Soft      |
-| 3    | Elongated  | 8    | Tanned    |
-| 4    | Pockmarked | 9    | Tattooed  |
-| 5    | Rosy       | 10   | Weathered |
+|     |            |     |           |
+| --- | ---------- | --- | --------- |
+| 1   | Birthmark  | 6   | Round     |
+| 2   | Dark       | 7   | Soft      |
+| 3   | Elongated  | 8   | Tanned    |
+| 4   | Pockmarked | 9   | Tattooed  |
+| 5   | Rosy       | 10  | Weathered |
 
 #### Hair
 
-|  |         |      |           |
-| ---- | ------- | ---- | --------- |
-| 1    | Bald    | 6    | Long      |
-| 2    | Braided | 7    | Luxurious |
-| 3    | Curly   | 8    | Oily      |
-| 4    | Filthy  | 9    | Wavy      |
-| 5    | Frizzy  | 10   | Wispy     |
+|     |         |     |           |
+| --- | ------- | --- | --------- |
+| 1   | Bald    | 6   | Long      |
+| 2   | Braided | 7   | Luxurious |
+| 3   | Curly   | 8   | Oily      |
+| 4   | Filthy  | 9   | Wavy      |
+| 5   | Frizzy  | 10  | Wispy     |
 
 #### Face
 
-|  |           |      |          |
-| ---- | --------- | ---- | -------- |
-| 1    | Bony      | 6    | Perfect  |
-| 2    | Broken    | 7    | Rat-like |
-| 3    | Chiseled  | 8    | Sharp    |
-| 4    | Elongated | 9    | Square   |
-| 5    | Pale      | 10   | Sunken   |
+|     |           |     |          |
+| --- | --------- | --- | -------- |
+| 1   | Bony      | 6   | Perfect  |
+| 2   | Broken    | 7   | Rat-like |
+| 3   | Chiseled  | 8   | Sharp    |
+| 4   | Elongated | 9   | Square   |
+| 5   | Pale      | 10  | Sunken   |
 
 #### Speech
 
-|  |         |      |            |
-| ------ | ------- | ---- | ---------- |
-| 1      | Blunt   | 6    | Gravelly   |
-| 2      | Booming | 7    | Precise    |
-| 3      | Cryptic | 8    | Squeaky    |
-| 4      | Droning | 9    | Stuttering |
-| 5      | Formal  | 10   | Whispery   |
+|     |         |     |            |
+| --- | ------- | --- | ---------- |
+| 1   | Blunt   | 6   | Gravelly   |
+| 2   | Booming | 7   | Precise    |
+| 3   | Cryptic | 8   | Squeaky    |
+| 4   | Droning | 9   | Stuttering |
+| 5   | Formal  | 10  | Whispery   |
 
 #### Clothing
 
-|  |         |      |        |
-| -------- | ------- | ---- | ------ |
-| 1        | Antique | 6    | Frayed |
-| 2        | Bloody  | 7    | Frumpy |
-| 3        | Elegant | 8    | Livery |
-| 4        | Filthy  | 9    | Rancid |
-| 5        | Foreign | 10   | Soiled |
+|     |         |     |        |
+| --- | ------- | --- | ------ |
+| 1   | Antique | 6   | Frayed |
+| 2   | Bloody  | 7   | Frumpy |
+| 3   | Elegant | 8   | Livery |
+| 4   | Filthy  | 9   | Rancid |
+| 5   | Foreign | 10  | Soiled |
 
 #### Virtue
 
-|  |             |      |           |
-| ------ | ----------- | ---- | --------- |
-| 1      | Ambitious   | 6    | Honorable |
-| 2      | Cautious    | 7    | Humble    |
-| 3      | Courageous  | 8    | Merciful  |
-| 4      | Disciplined | 9    | Serene    |
-| 5      | Gregarious  | 10   | Tolerant  |
+|     |             |     |           |
+| --- | ----------- | --- | --------- |
+| 1   | Ambitious   | 6   | Honorable |
+| 2   | Cautious    | 7   | Humble    |
+| 3   | Courageous  | 8   | Merciful  |
+| 4   | Disciplined | 9   | Serene    |
+| 5   | Gregarious  | 10  | Tolerant  |
 
 #### Vice
 
-|  |            |      |          |
-| ---- | ---------- | ---- | -------- |
-| 1    | Aggressive | 6    | Lazy     |
-| 2    | Bitter     | 7    | Nervous  |
-| 3    | Craven     | 8    | Rude     |
-| 4    | Deceitful  | 9    | Vain     |
-| 5    | Greedy     | 10   | Vengeful |
+|     |            |     |          |
+| --- | ---------- | --- | -------- |
+| 1   | Aggressive | 6   | Lazy     |
+| 2   | Bitter     | 7   | Nervous  |
+| 3   | Craven     | 8   | Rude     |
+| 4   | Deceitful  | 9   | Vain     |
+| 5   | Greedy     | 10  | Vengeful |
 
 #### Reputation
 
-|  |             |      |           |
-| ---------- | ----------- | ---- | --------- |
-| 1          | Ambitious   | 6    | Loafer    |
-| 2          | Boor        | 7    | Oddball   |
-| 3          | Dangerous   | 8    | Repulsive |
-| 4          | Entertainer | 9    | Respected |
-| 5          | Honest      | 10   | Wise      |
+|     |             |     |           |
+| --- | ----------- | --- | --------- |
+| 1   | Ambitious   | 6   | Loafer    |
+| 2   | Boor        | 7   | Oddball   |
+| 3   | Dangerous   | 8   | Repulsive |
+| 4   | Entertainer | 9   | Respected |
+| 5   | Honest      | 10  | Wise      |
 
 #### Misfortunes
 
-|  |             |      |             |
-| ----------- | ----------- | ---- | ----------- |
-| 1           | Abandoned   | 6    | Defrauded   |
-| 2           | Addicted    | 7    | Demoted     |
-| 3           | Blackmailed | 8    | Discredited |
-| 4           | Condemned   | 9    | Disowned    |
-| 5           | Cursed      | 10   | Exiled      |
+|     |             |     |             |
+| --- | ----------- | --- | ----------- |
+| 1   | Abandoned   | 6   | Defrauded   |
+| 2   | Addicted    | 7   | Demoted     |
+| 3   | Blackmailed | 8   | Discredited |
+| 4   | Condemned   | 9   | Disowned    |
+| 5   | Cursed      | 10  | Exiled      |
 
 <p></p>
 
@@ -341,54 +341,54 @@ If you would like something closer to traditional classes, refer to the list of 
 
 #### Armor
 
-|  |            |           |       |
+|       |            |           |       |
 | :---: | :--------: | :-------: | :---: |
 |  1-3  |    4-14    |   15-19   |  20   |
 | None  | Brigandine | Chainmail | Plate |
 
 #### Helmets & Shields
 
-|  |        |        |                 |
-| :---------------: | :----: | :----: | :-------------: |
-|       1-13        | 14-16  | 17-19  |       20        |
-|       None        | Helmet | Shield | Helmet & Shield |
+|       |        |        |                 |
+| :---: | :----: | :----: | :-------------: |
+| 1-13  | 14-16  | 17-19  |       20        |
+| None  | Helmet | Shield | Helmet & Shield |
 
 #### Weapons
 
-|                |                  |                          |                                |
-| :-------------------: | :--------------: | :------------------: | :------------------------------: |
-|          1-5          |       6-14       |          15-19       |               20               |
+|                       |                  |                      |                                |
+| :-------------------: | :--------------: | :------------------: | :----------------------------: |
+|          1-5          |       6-14       |        15-19         |               20               |
 | Dagger, Cudgel, Staff | Sword, Mace, Axe | Bow, Crossbow, Sling | Halberd, War Hammer, Battleaxe |
 
 #### Expeditionary Gear
 
-|      |                        |      |                |      |             |      |             |
-| ---- | ---------------------- | ---- | -------------- | ---- | ----------- | ---- | ----------- |
-| 1    | Air Bladder            | 6    | Fire Oil       | 11   | Manacles    | 16   | Rope (25ft) |
-| 2    | Antitoxin              | 7    | Grappling Hook | 12   | Pick        | 17   | Spirit Ward |
-| 3    | Cart (+4 slots, bulky) | 8    | Large Sack     | 13   | Pole (10ft) | 18   | Spyglass    |
-| 4    | Chain (10ft)           | 9    | Large Trap     | 14   | Pulley      | 19   | Tinderbox   |
-| 5    | Dowsing Rod            | 10   | Lockpicks      | 15   | Repellent   | 20   | Wolfsbane   |
+|     |                        |     |                |     |             |     |             |
+| --- | ---------------------- | --- | -------------- | --- | ----------- | --- | ----------- |
+| 1   | Air Bladder            | 6   | Fire Oil       | 11  | Manacles    | 16  | Rope (25ft) |
+| 2   | Antitoxin              | 7   | Grappling Hook | 12  | Pick        | 17  | Spirit Ward |
+| 3   | Cart (+4 slots, bulky) | 8   | Large Sack     | 13  | Pole (10ft) | 18  | Spyglass    |
+| 4   | Chain (10ft)           | 9   | Large Trap     | 14  | Pulley      | 19  | Tinderbox   |
+| 5   | Dowsing Rod            | 10  | Lockpicks      | 15  | Repellent   | 20  | Wolfsbane   |
 
 #### Tools
 
-|      |          |      |                |      |            |      |         |
-| ---- | -------- | ---- | -------------- | ---- | ---------- | ---- | ------- |
-| 1    | Bellows  | 6    | Cook Pots      | 11   | Grease     | 16   | Net     |
-| 2    | Bucket   | 7    | Crowbar        | 12   | Hammer     | 17   | Saw     |
-| 3    | Caltrops | 8    | Drill (Manual) | 13   | Hour Glass | 18   | Sealant |
-| 4    | Chalk    | 9    | Fishing Rod    | 14   | Metal File | 19   | Shovel  |
-| 5    | Chisel   | 10   | Glue           | 15   | Nails      | 20   | Tongs   |
+|     |          |     |                |     |            |     |         |
+| --- | -------- | --- | -------------- | --- | ---------- | --- | ------- |
+| 1   | Bellows  | 6   | Cook Pots      | 11  | Grease     | 16  | Net     |
+| 2   | Bucket   | 7   | Crowbar        | 12  | Hammer     | 17  | Saw     |
+| 3   | Caltrops | 8   | Drill (Manual) | 13  | Hour Glass | 18  | Sealant |
+| 4   | Chalk    | 9   | Fishing Rod    | 14  | Metal File | 19  | Shovel  |
+| 5   | Chisel   | 10  | Glue           | 15  | Nails      | 20  | Tongs   |
 
 #### Trinkets
 
-|      |             |      |            |      |             |      |         |
-| ---- | ----------- | ---- | ---------- | ---- | ----------- | ---- | ------- |
-| 1    | Bottle      | 6    | Horn       | 11   | Mirror      | 16   | Soap    |
-| 2    | Card Deck   | 7    | Incense    | 12   | Perfume     | 17   | Sponge  |
-| 3    | Dice Set    | 8    | Instrument | 13   | Quill & Ink | 18   | Tar Pot |
-| 4    | Face Paint  | 9    | Lens       | 14   | Salt Pack   | 19   | Twine   |
-| 5    | Fake Jewels | 10   | Marbles    | 15   | Small Bell  | 20   | Whistle |
+|     |             |     |            |     |             |     |         |
+| --- | ----------- | --- | ---------- | --- | ----------- | --- | ------- |
+| 1   | Bottle      | 6   | Horn       | 11  | Mirror      | 16  | Soap    |
+| 2   | Card Deck   | 7   | Incense    | 12  | Perfume     | 17  | Sponge  |
+| 3   | Dice Set    | 8   | Instrument | 13  | Quill & Ink | 18  | Tar Pot |
+| 4   | Face Paint  | 9   | Lens       | 14  | Salt Pack   | 19  | Twine   |
+| 5   | Fake Jewels | 10  | Marbles    | 15  | Small Bell  | 20  | Whistle |
 
 #### 																		Bonus Item (roll on table indicated)
 
@@ -401,33 +401,33 @@ If you would like something closer to traditional classes, refer to the list of 
 
 #### 																						Spellbooks (d100)
 
-|||||||||
-|---|-----------------|---|----------------|---|---------------|---|---------------|
-|1  |Adhere           |26 |Earthquake      |51 |Masquerade     |76 |Smoke Form     |
-|2  |Anchor           |27 |Elasticity      |52 |Miniaturize    |77 |Sniff          |
-|3  |Animate Object   |28 |Elemental Wall  |53 |Mirror Image   |78 |Snuff          |
-|4  |Anthropomorphize |29 |Filch           |54 |Mirrorwalk     |79 |Sort           |
-|5  |Arcane Eye       |30 |Flare           |55 |Multiarm       |80 |Spectacle      |
-|6  |Astral Prison    |31 |Fog Cloud       |56 |Night Sphere   |81 |Spellsaw       |
-|7  |Attract          |32 |Frenzy          |57 |Objectify      |82 |Spider Climb   |
-|8  |Auditory Illusion|33 |Gate            |58 |Ooze Form      |83 |Summon Cube    |
-|9  |Babble           |34 |Gravity Shift   |59 |Pacify         |84 |Swarm          |
-|10 |Bait Flower      |35 |Greed           |60 |Phobia         |85 |Telekinesis    |
-|11 |Beast Form       |36 |Haste           |61 |Pit            |86 |Telepathy      |
-|12 |Befuddle         |37 |Hatred          |62 |Primal Surge   |87 |Teleport       |
-|13 |Body Swap        |38 |Hear Whispers   |63 |Push/Pull      |88 |Target Lure    |
-|14 |Charm            |39 |Hover           |64 |Raise Dead     |89 |Thicket        |
-|15 |Command          |40 |Hypnotize       |65 |Raise Spirit   |90 |Summon Idol    |
-|16 |Comprehend       |41 |Icy Touch       |66 |Read Mind      |91 |Time Control   |
-|17 |Cone of Foam     |42 |Identify Owner  |67 |Repel          |92 |True Sight     |
-|18 |Control Plants   |43 |Illuminate      |68 |Scry           |93 |Upwell         |
-|19 |Control Weather  |44 |Invisible Tether|69 |Sculpt Elements|94 |Vision         |
-|20 |Cure Wounds      |45 |Knock           |70 |Sense          |95 |Visual Illusion|
-|21 |Deafen           |46 |Leap            |71 |Shield         |96 |Ward           |
-|22 |Detect Magic     |47 |Liquid Air      |72 |Shroud         |97 |Web            |
-|23 |Disassemble      |48 |Magic Dampener  |73 |Shuffle        |98 |Widget         |
-|24 |Disguise         |49 |Manse           |74 |Sleep          |99 |Wizard Mark    |
-|25 |Displace         |50 |Marble Craze    |75 |Slick          |100|X-Ray Vision   |
+|     |                   |     |                  |     |                 |     |                 |
+| --- | ----------------- | --- | ---------------- | --- | --------------- | --- | --------------- |
+| 1   | Adhere            | 26  | Earthquake       | 51  | Masquerade      | 76  | Smoke Form      |
+| 2   | Anchor            | 27  | Elasticity       | 52  | Miniaturize     | 77  | Sniff           |
+| 3   | Animate Object    | 28  | Elemental Wall   | 53  | Mirror Image    | 78  | Snuff           |
+| 4   | Anthropomorphize  | 29  | Filch            | 54  | Mirrorwalk      | 79  | Sort            |
+| 5   | Arcane Eye        | 30  | Flare            | 55  | Multiarm        | 80  | Spectacle       |
+| 6   | Astral Prison     | 31  | Fog Cloud        | 56  | Night Sphere    | 81  | Spellsaw        |
+| 7   | Attract           | 32  | Frenzy           | 57  | Objectify       | 82  | Spider Climb    |
+| 8   | Auditory Illusion | 33  | Gate             | 58  | Ooze Form       | 83  | Summon Cube     |
+| 9   | Babble            | 34  | Gravity Shift    | 59  | Pacify          | 84  | Swarm           |
+| 10  | Bait Flower       | 35  | Greed            | 60  | Phobia          | 85  | Telekinesis     |
+| 11  | Beast Form        | 36  | Haste            | 61  | Pit             | 86  | Telepathy       |
+| 12  | Befuddle          | 37  | Hatred           | 62  | Primal Surge    | 87  | Teleport        |
+| 13  | Body Swap         | 38  | Hear Whispers    | 63  | Push/Pull       | 88  | Target Lure     |
+| 14  | Charm             | 39  | Hover            | 64  | Raise Dead      | 89  | Thicket         |
+| 15  | Command           | 40  | Hypnotize        | 65  | Raise Spirit    | 90  | Summon Idol     |
+| 16  | Comprehend        | 41  | Icy Touch        | 66  | Read Mind       | 91  | Time Control    |
+| 17  | Cone of Foam      | 42  | Identify Owner   | 67  | Repel           | 92  | True Sight      |
+| 18  | Control Plants    | 43  | Illuminate       | 68  | Scry            | 93  | Upwell          |
+| 19  | Control Weather   | 44  | Invisible Tether | 69  | Sculpt Elements | 94  | Vision          |
+| 20  | Cure Wounds       | 45  | Knock            | 70  | Sense           | 95  | Visual Illusion |
+| 21  | Deafen            | 46  | Leap             | 71  | Shield          | 96  | Ward            |
+| 22  | Detect Magic      | 47  | Liquid Air       | 72  | Shroud          | 97  | Web             |
+| 23  | Disassemble       | 48  | Magic Dampener   | 73  | Shuffle         | 98  | Widget          |
+| 24  | Disguise          | 49  | Manse            | 74  | Sleep           | 99  | Wizard Mark     |
+| 25  | Displace          | 50  | Marble Craze     | 75  | Slick           | 100 | X-Ray Vision    |
 
 <p></p>
 
@@ -435,58 +435,58 @@ If you would like something closer to traditional classes, refer to the list of 
 
 #### Armor
 
-||     |
-|--------------------------------------------------------------|-----|
-|Shield (+1 Armor)            |10   |
-|Helmet (+1 Armor)            |10   |
-|Gambeson (+1 Armor)          |15   |
-|Brigandine (1 Armor, bulky)  |20   |
-|Chainmail (2 Armor, bulky)   |40   |
-|Plate (3 Armor, bulky)       |60   |
+|                             |     |
+| --------------------------- | --- |
+| Shield (+1 Armor)           | 10  |
+| Helmet (+1 Armor)           | 10  |
+| Gambeson (+1 Armor)         | 15  |
+| Brigandine (1 Armor, bulky) | 20  |
+| Chainmail (2 Armor, bulky)  | 40  |
+| Plate (3 Armor, bulky)      | 60  |
 
 #### Weapons
 
-| |     |
-|-----------------------------------------------------------|-----|
-|Dagger, Cudgel, Sickle, Staff, etc. (d6 damage)            |5    |
-|Spear, Sword, Mace, Axe, Flail, etc. (d8 damage)           |10   |
-|Halberd, War Hammer, Long Sword, etc. (d10 damage, bulky)  |20   |
-|Sling (d4 damage)                                          |5    |
-|Bow (d6 damage, bulky)                                     |20   |
-|Crossbow (d8 damage, bulky)                                |30   |
+|                                                           |     |
+| --------------------------------------------------------- | --- |
+| Dagger, Cudgel, Sickle, Staff, etc. (d6 damage)           | 5   |
+| Spear, Sword, Mace, Axe, Flail, etc. (d8 damage)          | 10  |
+| Halberd, War Hammer, Long Sword, etc. (d10 damage, bulky) | 20  |
+| Sling (d4 damage)                                         | 5   |
+| Bow (d6 damage, bulky)                                    | 20  |
+| Crossbow (d8 damage, bulky)                               | 30  |
 
 #### Gear & Tools
 
-| |                |                   |          |
-|---------------------------------------------|----------------|-------------------|----------|
-|Air Bladder                                  |5               |Large Trap         |20        |
-|Bellows                                      |10              |Large Sponge       |5         |
-|Bedroll                                      |5               |Lens               |10        |
-|Book                                         |50              |Lockpicks          |25        |
-|Bucket                                       |5               |Manacles           |10        |
-|Caltrops                                     |10              |Metal File         |5         |
-|Cart (+4 slots, bulky)                       |30              |Mirror             |5         |
-|Chain (10ft)                                 |10              |Mule (+6 slots, slow)|30      |
-|Chalk                                        |1               |Net                |10        |
-|Chisel                                       |5               |Oilskin Bag        |5         |
-|Cook Pots                                    |10              |Pick               |10        |
-|Crowbar                                      |10              |Pulley             |10        |
-|Drill (Manual)                               |10              |Pole (10ft)        |5         |
-|Face Paint                                   |10              |Quill & Ink        |10        |
-|Fire Oil                                     |10              |Rations (three day's worth)|10        |
-|Fishing Rod                                  |10              |Rope (25ft)        |5         |
-|Glass Marbles                                |5               |Saw                |5         |
-|Glue                                         |5               |Sack               |5         |
-|Grease                                       |10              |Shovel             |5         |
-|Grappling Hook                               |25              |Soap               |1         |
-|Hammer                                       |5               |Spike              |1         |
-|Holy Water                                   |25              |Spiked Boots       |5         |
-|Horn                                         |10              |Spyglass           |40        |
-|Horse (+4 slots)                             |75              |Tar                |10        |
-|Hourglass                                    |50              |Tent (fits 2 people, bulky)|20        |
-|Incense                                      |10              |Torch              |1         |
-|Ladder (bulky, 10ft)                         |10              |Wagon (+8 slots, slow)|200    |
-|Lantern & Oil                                |10              |Wolfsbane          |10        |
+|                        |     |                             |     |
+| ---------------------- | --- | --------------------------- | --- |
+| Air Bladder            | 5   | Large Trap                  | 20  |
+| Bellows                | 10  | Large Sponge                | 5   |
+| Bedroll                | 5   | Lens                        | 10  |
+| Book                   | 50  | Lockpicks                   | 25  |
+| Bucket                 | 5   | Manacles                    | 10  |
+| Caltrops               | 10  | Metal File                  | 5   |
+| Cart (+4 slots, bulky) | 30  | Mirror                      | 5   |
+| Chain (10ft)           | 10  | Mule (+6 slots, slow)       | 30  |
+| Chalk                  | 1   | Net                         | 10  |
+| Chisel                 | 5   | Oilskin Bag                 | 5   |
+| Cook Pots              | 10  | Pick                        | 10  |
+| Crowbar                | 10  | Pulley                      | 10  |
+| Drill (Manual)         | 10  | Pole (10ft)                 | 5   |
+| Face Paint             | 10  | Quill & Ink                 | 10  |
+| Fire Oil               | 10  | Rations (three day's worth) | 10  |
+| Fishing Rod            | 10  | Rope (25ft)                 | 5   |
+| Glass Marbles          | 5   | Saw                         | 5   |
+| Glue                   | 5   | Sack                        | 5   |
+| Grease                 | 10  | Shovel                      | 5   |
+| Grappling Hook         | 25  | Soap                        | 1   |
+| Hammer                 | 5   | Spike                       | 1   |
+| Holy Water             | 25  | Spiked Boots                | 5   |
+| Horn                   | 10  | Spyglass                    | 40  |
+| Horse (+4 slots)       | 75  | Tar                         | 10  |
+| Hourglass              | 50  | Tent (fits 2 people, bulky) | 20  |
+| Incense                | 10  | Torch                       | 1   |
+| Ladder (bulky, 10ft)   | 10  | Wagon (+8 slots, slow)      | 200 |
+| Lantern & Oil          | 10  | Wolfsbane                   | 10  |
 
 <p></p>
 
@@ -505,58 +505,58 @@ If you would like something closer to traditional classes, refer to the list of 
 
 #### Dowser
 
-|                                           |
-|-------------------------------------------|
-|Sickle (d6)                                |
-|Patchwork Doublet (+1 Armor)               |
-|Dowsing Rod                                |
-|Eyestone (_Sense_ if placed in fresh water)|
-|Worn Map                                   |
-|Spyglass                                   |
+|                                             |
+| ------------------------------------------- |
+| Sickle (d6)                                 |
+| Patchwork Doublet (+1 Armor)                |
+| Dowsing Rod                                 |
+| Eyestone (_Sense_ if placed in fresh water) |
+| Worn Map                                    |
+| Spyglass                                    |
 
 #### Dwarf
 
-||
-|-----------------------------------------|
-|Prickly Root (d6)                        |
-|Pinecone Lattice (1 Armor)               |
-|Trowel                                   |
-|Jar of Forest Ants                       |
-|Poisonous mushroom                       |
-|Hand Drill                               |
+|                            |
+| -------------------------- |
+| Prickly Root (d6)          |
+| Pinecone Lattice (1 Armor) |
+| Trowel                     |
+| Jar of Forest Ants         |
+| Poisonous mushroom         |
+| Hand Drill                 |
 
 #### Elf
 
-||
-|-----------------------------------------|
-|Elegant Sword (d8)                       |
-|Recurve Bow (d8)                         |
-|Gilt Clothing (1 Armor)                  |
-|Spellbook (_Charm_ or _Detect Magic_)    |
-|Golden Flute                             |
-|Air Bladder                              |
+|                                       |
+| ------------------------------------- |
+| Elegant Sword (d8)                    |
+| Recurve Bow (d8)                      |
+| Gilt Clothing (1 Armor)               |
+| Spellbook (_Charm_ or _Detect Magic_) |
+| Golden Flute                          |
+| Air Bladder                           |
 
 #### Fighter
 
-||
-|---------------------------------------|
-|Glaive (d10, bulky)                    |
-|Scimitar (d8)                          |
-|Shortsword (d6)                        |
-|Shortsword (d6)                        |
-|Tobacco Pouch & Pipe                   |
-|Dice Set                               |
+|                      |
+| -------------------- |
+| Glaive (d10, bulky)  |
+| Scimitar (d8)        |
+| Shortsword (d6)      |
+| Shortsword (d6)      |
+| Tobacco Pouch & Pipe |
+| Dice Set             |
 
 #### Friar
 
-||
-|-------------------------------|
-|Scepter (d6)                   |
-|Deceptive Robes (+1 Armor)     |
-|Censer & Holy Water            |
-|Jug of Honey Wine              |
-|Folk Songbook                  |
-|Cart (+4 slots, bulky)         |
+|                            |
+| -------------------------- |
+| Scepter (d6)               |
+| Deceptive Robes (+1 Armor) |
+| Censer & Holy Water        |
+| Jug of Honey Wine          |
+| Folk Songbook              |
+| Cart (+4 slots, bulky)     |
 
 #### Knight
 
@@ -571,36 +571,36 @@ If you would like something closer to traditional classes, refer to the list of 
 
 #### Magic User
 
-||
-|-----------------------------------------|
-|Fizzled Staff (d8, bulky)                |
-|Dagger (d6)                              |
-|Spellbook (random spell)                 |
-|Spellbook (random spell)                 |
-|Ragged Clothing (hidden pockets)         |
-|Leycap (x2, see **Relics**)              |
+|                                  |
+| -------------------------------- |
+| Fizzled Staff (d8, bulky)        |
+| Dagger (d6)                      |
+| Spellbook (random spell)         |
+| Spellbook (random spell)         |
+| Ragged Clothing (hidden pockets) |
+| Leycap (x2, see **Relics**)      |
 
 #### Thief
 
-||
-|-----------------------------------------|
-|Two daggers (d6+d6)                      |
-|Hooded Jerkin (1 Armor)                  |
-|Lockpicks                                |
-|Caltrops                                 |
-|Grappling Hook                           |
-|Metal File                               |
+|                         |
+| ----------------------- |
+| Two daggers (d6+d6)     |
+| Hooded Jerkin (1 Armor) |
+| Lockpicks               |
+| Caltrops                |
+| Grappling Hook          |
+| Metal File              |
 
 #### Ranger
 
-||
-|------------------------------------------|
-|Longbow (d8, bulky)                       |
-|Hatchet (d6)                              |
-|Padded Leathers (1 Armor)                 |
-|Large Trap                                |
-|Bloodhound &#124; 2 HP, 12 DEX, bite (d6) |
-|Thundering Horn                           |
+|                                           |
+| ----------------------------------------- |
+| Longbow (d8, bulky)                       |
+| Hatchet (d6)                              |
+| Padded Leathers (1 Armor)                 |
+| Large Trap                                |
+| Bloodhound &#124; 2 HP, 12 DEX, bite (d6) |
+| Thundering Horn                           |
 
 [back to index](#index)
 <p></p>
@@ -639,10 +639,10 @@ Shields, gauntlets, and helms may provide additional benefits according to their
 ### Reactions
 When the PCs encounter an NPC whose reaction to the party is not obvious, the Warden may roll 2d6 and consult the following table:
 
-| | | | | |
-| :-----: | :--: | :-----: | :--: | :--: |
-|    2    | 3-5  |   6-8   | 9-11 | 12      |
-| Hostile | Wary | Curious | Kind | Helpful |
+|         |       |         |       |         |
+| :-----: | :---: | :-----: | :---: | :-----: |
+|    2    |  3-5  |   6-8   | 9-11  |   12    |
+| Hostile | Wary  | Curious | Kind  | Helpful |
 
 ### Morale
 Enemies must pass a WIL save to avoid fleeing when they take their first casualty and again when they lose half their number. Some groups may use their leader's WIL in place of their own. Lone foes must save when they're reduced to 0 HP. Morale does not affect PCs.
@@ -754,20 +754,20 @@ Running away from a dire situation always requires a successful DEX save, as wel
 ### Scars
 When an attack reduces a PC's HP to exactly 0, they are uniquely impacted. Look up the result on the table below based on the _total_ damage taken:
 
-|      |                                                              |
-|------ |---|
-| 1    | Lasting Scar: Roll 1d6 &#124; 1: Neck, 2: Hands, 3: Eye, 4: Chest, 5: Legs, 6: Ear. Roll 1d6. If the total is higher than your max HP, take the new result. |
-| 2    | Rattling Blow: You’re disoriented and shaken. Describe how you refocus. Roll 1d6. If the total is higher than your max HP, take the new result. |
-| 3    | Walloped: You’re sent flying and land flat on your face, winded. You are deprived until you rest for a few hours. Then, roll 1d6. Add that amount to your max HP. |
-| 4    | Broken Limb: Roll 1d6 &#124; 1-2: Leg, 3-4: Arm, 5: Rib, 6: Skull. Once mended, roll 2d6. If the total is higher than your max HP, take the new result. |
-| 5    | Diseased: You’re afflicted with a gross, uncomfortable infection. When you get over it, roll 2d6. If the total is higher than your max HP, take the new result. |
-| 6    | Reorienting Head Wound: Roll 1d6 &#124; 1-2: STR, 3-4: DEX, 5-6: WIL. Roll 3d6. If the total is higher than your current ability score, take the new result. |
-| 7    | Hamstrung: You can barely move until you get serious help and rest. After recovery, roll 3d6. If the total is higher than your max DEX, take the new result. |
-| 8    | Deafened: You cannot hear anything until you find extraordinary aid. Regardless, make a WIL save. If you pass, increase your max WIL by 1d4. |
-| 9    | Re-brained: Some hidden part of your psyche is knocked loose. Roll 3d6. If the total is higher than your max WIL, take the new result. |
-| 10   | Sundered: An appendage is torn off, crippled or useless. The Warden will tell you which. Then, make a WIL save. If you pass, increase your max WIL by 1d6. |
-| 11   | Mortal Wound: You are deprived and out of action. You die in one hour unless healed. Upon recovery, roll 2d6. Take the new result as your max HP. |
-| 12   | Doomed: Death seemed ever so close, but somehow you survived. If your next save against critical damage is a fail, you die horribly. If you pass, roll 3d6. If the total is higher than your max HP, take the new result. |
+|     |                                                                                                                                                                                                                           |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Lasting Scar: Roll 1d6 &#124; 1: Neck, 2: Hands, 3: Eye, 4: Chest, 5: Legs, 6: Ear. Roll 1d6. If the total is higher than your max HP, take the new result.                                                               |
+| 2   | Rattling Blow: You’re disoriented and shaken. Describe how you refocus. Roll 1d6. If the total is higher than your max HP, take the new result.                                                                           |
+| 3   | Walloped: You’re sent flying and land flat on your face, winded. You are deprived until you rest for a few hours. Then, roll 1d6. Add that amount to your max HP.                                                         |
+| 4   | Broken Limb: Roll 1d6 &#124; 1-2: Leg, 3-4: Arm, 5: Rib, 6: Skull. Once mended, roll 2d6. If the total is higher than your max HP, take the new result.                                                                   |
+| 5   | Diseased: You’re afflicted with a gross, uncomfortable infection. When you get over it, roll 2d6. If the total is higher than your max HP, take the new result.                                                           |
+| 6   | Reorienting Head Wound: Roll 1d6 &#124; 1-2: STR, 3-4: DEX, 5-6: WIL. Roll 3d6. If the total is higher than your current ability score, take the new result.                                                              |
+| 7   | Hamstrung: You can barely move until you get serious help and rest. After recovery, roll 3d6. If the total is higher than your max DEX, take the new result.                                                              |
+| 8   | Deafened: You cannot hear anything until you find extraordinary aid. Regardless, make a WIL save. If you pass, increase your max WIL by 1d4.                                                                              |
+| 9   | Re-brained: Some hidden part of your psyche is knocked loose. Roll 3d6. If the total is higher than your max WIL, take the new result.                                                                                    |
+| 10  | Sundered: An appendage is torn off, crippled or useless. The Warden will tell you which. Then, make a WIL save. If you pass, increase your max WIL by 1d6.                                                                |
+| 11  | Mortal Wound: You are deprived and out of action. You die in one hour unless healed. Upon recovery, roll 2d6. Take the new result as your max HP.                                                                         |
+| 12  | Doomed: Death seemed ever so close, but somehow you survived. If your next save against critical damage is a fail, you die horribly. If you pass, roll 3d6. If the total is higher than your max HP, take the new result. |
 
 [back to index](#index)
 <p></p>
@@ -841,108 +841,108 @@ Damage die are roughly the same, though armed attacks do at least 1d6 damage.
 
 ## 100 Spells
 
-|      |                                         |                                                              |
-| ---- | --------------------------------------- | ------------------------------------------------------------ |
-| 1    | [Adhere](#adhere)                       | An object is covered in extremely sticky slime.              |
-| 2    | [Anchor](#anchor)                       | A strong wire sprouts from your arms, affixing itself to two points within 50ft on each side. |
-| 3    | [Animate Object](#animate-object)       | An object obeys your commands as best it can.                |
-| 4    | [Anthropomorphize](#anthropomorphize)   | An animal either gains human intelligence or human appearance for one day. |
-| 5    | [Arcane Eye](#arcane-eye)               | You can see through a magical floating eyeball that flies around at your command. |
-| 6    | [Astral Prison](#astral-prison)         | An object is frozen in time and space within an invulnerable crystal shell. |
-| 7    | [Attract](#attract)                     | Two objects are strongly magnetically attracted to each other if they come within 10 feet. |
-| 8    | [Auditory Illusion](#auditory-illusion) | You create illusory sounds that seem to come from a direction of your choice. |
-| 9    | [Babble](#babble)                       | A creature must loudly and clearly repeat everything you think. It is otherwise mute. |
-| 10   | [Bait Flower](#bait-flower)             | A plant sprouts from the ground that emanates the smell of decaying flesh. |
-| 11   | [Beast Form](#beast-form)               | You and your possessions transform into a mundane animal.    |
-| 12   | [Befuddle](#befuddle)                   | A creature of your choice is unable to form new short-term memories for the duration of the spell. |
-| 13   | [Body Swap](#body-swap)                 | You switch bodies with a creature you touch. If one body dies, the other dies as well. |
-| 14   | [Charm](#charm)                         | A creature you can see treats you as a friend.               |
-| 15   | [Command](#command)                     | A target obeys a single three-word command that does not cause it harm. |
-| 16   | [Comprehend](#comprehend)               | You become fluent in all languages for a short while.        |
-| 17   | [Cone of Foam](#cone-of-foam)           | Dense foam sprays from your hand, coating the target.        |
-| 18   | [Control Plants](#control-plants)       | Nearby plants and trees obey you and gain the ability to move at a slow pace. |
-| 19   | [Control Weather](#control-weather)     | You may alter the type of weather at will, but you do not otherwise control it. |
-| 20   | [Cure Wounds](#cure-wounds)             | Restore 1d4 STR per day to a creature you can touch.         |
-| 21   | [Deafen](#deafen)                       | All nearby creatures are deafened.                           |
-| 22   | [Detect Magic](#detect-magic)           | You can see or hear nearby magical auras.                    |
-| 23   | [Disassemble](#disassemble)             | Any of your body parts may be detached and reattached at will, without causing pain or damage. You can still control them. |
-| 24   | [Disguise](#disguise)                   | You may alter the appearance of one character at will as long as they remain humanoid. Attempts to duplicate other characters will seem uncanny. |
-| 25   | [Displace](#displace)                   | An object appears to be up to 15ft from its actual position. |
-| 26   | [Earthquake](#earthquake)               | The ground begins shaking violently. Structures may be damaged or collapse. |
-| 27   | [Elasticity](#elasticity)               | Your body can stretch up to 10ft.                            |
-| 28   | [Elemental Wall](#elemental-wall)       | A straight wall of ice or fire 50ft long and 10ft high rises from the ground. |
-| 29   | [Filch](#filch)                         | A visible item teleports to your hands.                      |
-| 30   | [Flare](#flare)                         | A bright ball of energy fires a trail of light into the sky, revealing your location to friend or foe. |
-| 31   | [Fog Cloud](#fog-cloud)                 | A dense fog spreads out from you.                            |
-| 32   | [Frenzy](#frenzy)                       | A nearby creature erupts in a frenzy of violence.            |
-| 33   | [Gate](#gate)                           | A portal to a random plane opens.                            |
-| 34   | [Gravity Shift](#gravity-shift)         | You can change the direction of gravity, but only for yourself. |
-| 35   | [Greed](#greed)                         | A creature develops the overwhelming urge to possess a visible item of your choice. |
-| 36   | [Haste](#haste)                         | Your movement speed is tripled.                              |
-| 37   | [Hatred](#hatred)                       | A creature develops a deep hatred of another creature or group and wishes to destroy them. |
-| 38   | [Hear Whispers](#hear-whispers)         | You can hear faint sounds clearly.                           |
-| 39   | [Hover](#hover)                         | An object hovers, frictionless, 2ft above the ground. It can hold up to one humanoid. |
-| 40   | [Hypnotize](#hypnotize)                 | A creature enters a trance and will truthfully answer one yes or no question you ask it. |
-| 41   | [Icy Touch](#icy-touch)                 | A thick ice layer spreads across a touched surface, up to 10ft in radius. |
-| 42   | [Identify Owner](#identify-owner)       | Letters appear over the object you touch, spelling out the name of the object's owners, if there are any. |
-| 43   | [Illuminate](#illuminate)               | A floating light moves as you command.                       |
-| 44   | [Invisible Tether](#invisible-tether)   | Two objects within 10ft of each other cannot be moved more than 10ft apart. |
-| 45   | [Knock](#knock)                         | A nearby mundane or magical lock unlocks loudly.             |
-| 46   | [Leap](#leap)                           | You jump up to 10ft high, once.                              |
-| 47   | [Liquid Air](#liquid-air)               | The air around you becomes swimmable .                       |
-| 48   | [Magic Dampener](#magic-dampener)       | All nearby magical effects have their effectiveness halved.  |
-| 49   | [Manse](#manse)                         | A sturdy, furnished cottage appears for 12 hours. You can permit and forbid entry to it at will. |
-| 50   | [Marble Craze](#marble-craze)           | Your pockets are full of marbles, and will refill every 30 seconds. |
-| 51   | [Masquerade](#masquerade)               | A character's appearance and voice becomes identical to those of a character you touch. |
-| 52   | [Miniaturize](#miniaturize)             | A creature you touch is shrunk down to the size of a mouse.  |
-| 53   | [Mirror Image](#mirror-image)           | An illusory duplicate of yourself appears and is under your control. |
-| 54   | [Mirrorwalk](#mirrorwalk)               | A mirror becomes a gateway to another mirror that you looked into today. |
-| 55   | [Multiarm](#multiarm)                   | You temporarily gain an extra arm.                           |
-| 56   | [Night Sphere](#night-sphere)           | A 50ft wide sphere of darkness displaying the night sky appears before you. |
-| 57   | [Objectify](#objectify)                 | You become any inanimate object between the size of a grand piano and an apple. |
-| 58   | [Ooze Form](#ooze-form)                 | You become a living jelly.                                   |
-| 59   | [Pacify](#pacify)                       | A creature near you has an aversion to violence.             |
-| 60   | [Phobia](#phobia)                       | A nearby creature becomes terrified of an object of your choice. |
-| 61   | [Pit](#pit)                             | A pit 10ft wide and 10ft deep opens in the ground.           |
-| 62   | [Primal Surge](#primal-surge)           | A creature rapidly evolves into a future version of its species. |
-| 63   | [Push/Pull](#push/pull)                 | An object of any size is pulled directly towards you or pushed directly away from you with the strength of one man. |
-| 64   | [Raise Dead](#raise-dead)               | A skeleton rises from the ground to serve you. They are incredibly stupid and can only obey simple orders. |
-| 65   | [Raise Spirit](#raise-spirit)           | The spirit of a nearby corpse manifests and will answer 1 question. |
-| 66   | [Read Mind](#read-mind)                 | You can hear the surface thoughts of nearby creatures.       |
-| 67   | [Repel](#repel)                         | Two objects are strongly magnetically repelled from each other within 10 feet. |
-| 68   | [Scry](#scry)                           | You can see through the eyes of a creature you touched earlier today. |
-| 69   | [Sculpt Elements](#sculpt-elements)     | Inanimate material behaves like clay in your hands.          |
-| 70   | [Sense](#sense)                         | Choose one kind of object (key, gold, arrow, jug, etc). You can sense the nearest example. |
-| 71   | [Shield](#shield)                       | A creature you touch is protected from mundane attacks for one minute. |
-| 72   | [Shroud](#shroud)                       | A creature you touch is invisible until they move.           |
-| 73   | [Shuffle](#shuffle)                     | Two creatures you can see instantly switch places.           |
-| 74   | [Sleep](#sleep)                         | A creature you can see falls into a light sleep.             |
-| 75   | [Slick](#slick)                         | Every surface in a 30ft radius becomes extremely slippery.   |
-| 76   | [Smoke Form](#smoke-form)               | Your body becomes a living smoke that you can control.       |
-| 77   | [Sniff](#sniff)                         | You can smell even the faintest traces of scents.            |
-| 78   | [Snuff](#snuff)                         | The source of any mundane light you can see is instantly snuffed out. |
-| 79   | [Sort](#sort)                           | Inanimate items sort themselves according to categories you set. |
-| 80   | [Spectacle](#spectacle)                 | A clearly false but impressive illusion of your choice appears, under your control. It may be up to the size of a palace and has full motion and sound. |
-| 81   | [Spellsaw](#spellsaw)                   | A whirling blade flies from your chest, clearing any plant material in its way. It is otherwise harmless. |
-| 82   | [Spider Climb](#spider-climb)           | You can climb surfaces like a spider.                        |
-| 83   | [Summon Cube](#summon-cube)             | Once per second you may summon or banish a 3-foot-wide cube of earth. New cubes must be affixed to the earth or to other cubes. |
-| 84   | [Swarm](#swarm)                         | You become a swarm of crows, rats, or piranhas. You can only be harmed by blast attacks. |
-| 85   | [Telekinesis](#telekinesis)             | You may mentally 1 move item under 60lbs.                    |
-| 86   | [Telepathy](#telepathy)                 | Two creatures can hear each other's thoughts, no matter how far apart. |
-| 87   | [Teleport](#teleport)                   | An object or person you can see is transported from one place to another in a 50ft radius. |
-| 88   | [Target Lure](#target-lure)             | An object you touch becomes the target of any nearby spell.  |
-| 89   | [Thicket](#thicket)                     | A thicket of trees and dense brush up to 50ft wide suddenly sprouts up. |
-| 90   | [Summon Idol](#summon-idol)             | A carved stone statue the size of a mule rises from the ground. |
-| 91   | [Time Control](#time-control)           | Time in a 50ft bubble slows down or increases by 10% for 30 seconds. |
-| 92   | [True Sight](#true-sight)               | You see through all nearby illusions.                        |
-| 93   | [Upwell](#upwell)                       | A spring of seawater appears.                                |
-| 94   | [Vision](#vision)                       | You completely control what a creature sees.                 |
-| 95   | [Visual Illusion](#visual-illusion)     | A silent, immobile, room-sized illusion of your choice appears. |
-| 96   | [Ward](#ward)                           | A silver circle 50ft across appears on the ground. Choose one species that cannot cross it. |
-| 97   | [Web](#web)                             | Your wrists shoot thick webbing.                             |
-| 98   | [Widget](#widget)                       | A primitive version of a drawn tool or item appears before you and disappears after a short time. |
-| 99   | [Wizard Mark](#wizard-mark)             | Your finger can shoot a stream of ulfire-colored paint. This paint is only visible to you and can be seen at any distance, even through solid objects. |
-| 100  | [X-Ray Vision](#x-ray-vision)           | You can see through walls, dirt, clothing, etc.              | 
+|     |                                         |                                                                                                                                                         |
+| --- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | [Adhere](#adhere)                       | An object is covered in extremely sticky slime.                                                                                                         |
+| 2   | [Anchor](#anchor)                       | A strong wire sprouts from your arms, affixing itself to two points within 50ft on each side.                                                           |
+| 3   | [Animate Object](#animate-object)       | An object obeys your commands as best it can.                                                                                                           |
+| 4   | [Anthropomorphize](#anthropomorphize)   | An animal either gains human intelligence or human appearance for one day.                                                                              |
+| 5   | [Arcane Eye](#arcane-eye)               | You can see through a magical floating eyeball that flies around at your command.                                                                       |
+| 6   | [Astral Prison](#astral-prison)         | An object is frozen in time and space within an invulnerable crystal shell.                                                                             |
+| 7   | [Attract](#attract)                     | Two objects are strongly magnetically attracted to each other if they come within 10 feet.                                                              |
+| 8   | [Auditory Illusion](#auditory-illusion) | You create illusory sounds that seem to come from a direction of your choice.                                                                           |
+| 9   | [Babble](#babble)                       | A creature must loudly and clearly repeat everything you think. It is otherwise mute.                                                                   |
+| 10  | [Bait Flower](#bait-flower)             | A plant sprouts from the ground that emanates the smell of decaying flesh.                                                                              |
+| 11  | [Beast Form](#beast-form)               | You and your possessions transform into a mundane animal.                                                                                               |
+| 12  | [Befuddle](#befuddle)                   | A creature of your choice is unable to form new short-term memories for the duration of the spell.                                                      |
+| 13  | [Body Swap](#body-swap)                 | You switch bodies with a creature you touch. If one body dies, the other dies as well.                                                                  |
+| 14  | [Charm](#charm)                         | A creature you can see treats you as a friend.                                                                                                          |
+| 15  | [Command](#command)                     | A target obeys a single three-word command that does not cause it harm.                                                                                 |
+| 16  | [Comprehend](#comprehend)               | You become fluent in all languages for a short while.                                                                                                   |
+| 17  | [Cone of Foam](#cone-of-foam)           | Dense foam sprays from your hand, coating the target.                                                                                                   |
+| 18  | [Control Plants](#control-plants)       | Nearby plants and trees obey you and gain the ability to move at a slow pace.                                                                           |
+| 19  | [Control Weather](#control-weather)     | You may alter the type of weather at will, but you do not otherwise control it.                                                                         |
+| 20  | [Cure Wounds](#cure-wounds)             | Restore 1d4 STR per day to a creature you can touch.                                                                                                    |
+| 21  | [Deafen](#deafen)                       | All nearby creatures are deafened.                                                                                                                      |
+| 22  | [Detect Magic](#detect-magic)           | You can see or hear nearby magical auras.                                                                                                               |
+| 23  | [Disassemble](#disassemble)             | Any of your body parts may be detached and reattached at will, without causing pain or damage. You can still control them.                              |
+| 24  | [Disguise](#disguise)                   | You may alter the appearance of one character at will as long as they remain humanoid. Attempts to duplicate other characters will seem uncanny.        |
+| 25  | [Displace](#displace)                   | An object appears to be up to 15ft from its actual position.                                                                                            |
+| 26  | [Earthquake](#earthquake)               | The ground begins shaking violently. Structures may be damaged or collapse.                                                                             |
+| 27  | [Elasticity](#elasticity)               | Your body can stretch up to 10ft.                                                                                                                       |
+| 28  | [Elemental Wall](#elemental-wall)       | A straight wall of ice or fire 50ft long and 10ft high rises from the ground.                                                                           |
+| 29  | [Filch](#filch)                         | A visible item teleports to your hands.                                                                                                                 |
+| 30  | [Flare](#flare)                         | A bright ball of energy fires a trail of light into the sky, revealing your location to friend or foe.                                                  |
+| 31  | [Fog Cloud](#fog-cloud)                 | A dense fog spreads out from you.                                                                                                                       |
+| 32  | [Frenzy](#frenzy)                       | A nearby creature erupts in a frenzy of violence.                                                                                                       |
+| 33  | [Gate](#gate)                           | A portal to a random plane opens.                                                                                                                       |
+| 34  | [Gravity Shift](#gravity-shift)         | You can change the direction of gravity, but only for yourself.                                                                                         |
+| 35  | [Greed](#greed)                         | A creature develops the overwhelming urge to possess a visible item of your choice.                                                                     |
+| 36  | [Haste](#haste)                         | Your movement speed is tripled.                                                                                                                         |
+| 37  | [Hatred](#hatred)                       | A creature develops a deep hatred of another creature or group and wishes to destroy them.                                                              |
+| 38  | [Hear Whispers](#hear-whispers)         | You can hear faint sounds clearly.                                                                                                                      |
+| 39  | [Hover](#hover)                         | An object hovers, frictionless, 2ft above the ground. It can hold up to one humanoid.                                                                   |
+| 40  | [Hypnotize](#hypnotize)                 | A creature enters a trance and will truthfully answer one yes or no question you ask it.                                                                |
+| 41  | [Icy Touch](#icy-touch)                 | A thick ice layer spreads across a touched surface, up to 10ft in radius.                                                                               |
+| 42  | [Identify Owner](#identify-owner)       | Letters appear over the object you touch, spelling out the name of the object's owners, if there are any.                                               |
+| 43  | [Illuminate](#illuminate)               | A floating light moves as you command.                                                                                                                  |
+| 44  | [Invisible Tether](#invisible-tether)   | Two objects within 10ft of each other cannot be moved more than 10ft apart.                                                                             |
+| 45  | [Knock](#knock)                         | A nearby mundane or magical lock unlocks loudly.                                                                                                        |
+| 46  | [Leap](#leap)                           | You jump up to 10ft high, once.                                                                                                                         |
+| 47  | [Liquid Air](#liquid-air)               | The air around you becomes swimmable .                                                                                                                  |
+| 48  | [Magic Dampener](#magic-dampener)       | All nearby magical effects have their effectiveness halved.                                                                                             |
+| 49  | [Manse](#manse)                         | A sturdy, furnished cottage appears for 12 hours. You can permit and forbid entry to it at will.                                                        |
+| 50  | [Marble Craze](#marble-craze)           | Your pockets are full of marbles, and will refill every 30 seconds.                                                                                     |
+| 51  | [Masquerade](#masquerade)               | A character's appearance and voice becomes identical to those of a character you touch.                                                                 |
+| 52  | [Miniaturize](#miniaturize)             | A creature you touch is shrunk down to the size of a mouse.                                                                                             |
+| 53  | [Mirror Image](#mirror-image)           | An illusory duplicate of yourself appears and is under your control.                                                                                    |
+| 54  | [Mirrorwalk](#mirrorwalk)               | A mirror becomes a gateway to another mirror that you looked into today.                                                                                |
+| 55  | [Multiarm](#multiarm)                   | You temporarily gain an extra arm.                                                                                                                      |
+| 56  | [Night Sphere](#night-sphere)           | A 50ft wide sphere of darkness displaying the night sky appears before you.                                                                             |
+| 57  | [Objectify](#objectify)                 | You become any inanimate object between the size of a grand piano and an apple.                                                                         |
+| 58  | [Ooze Form](#ooze-form)                 | You become a living jelly.                                                                                                                              |
+| 59  | [Pacify](#pacify)                       | A creature near you has an aversion to violence.                                                                                                        |
+| 60  | [Phobia](#phobia)                       | A nearby creature becomes terrified of an object of your choice.                                                                                        |
+| 61  | [Pit](#pit)                             | A pit 10ft wide and 10ft deep opens in the ground.                                                                                                      |
+| 62  | [Primal Surge](#primal-surge)           | A creature rapidly evolves into a future version of its species.                                                                                        |
+| 63  | [Push/Pull](#push/pull)                 | An object of any size is pulled directly towards you or pushed directly away from you with the strength of one man.                                     |
+| 64  | [Raise Dead](#raise-dead)               | A skeleton rises from the ground to serve you. They are incredibly stupid and can only obey simple orders.                                              |
+| 65  | [Raise Spirit](#raise-spirit)           | The spirit of a nearby corpse manifests and will answer 1 question.                                                                                     |
+| 66  | [Read Mind](#read-mind)                 | You can hear the surface thoughts of nearby creatures.                                                                                                  |
+| 67  | [Repel](#repel)                         | Two objects are strongly magnetically repelled from each other within 10 feet.                                                                          |
+| 68  | [Scry](#scry)                           | You can see through the eyes of a creature you touched earlier today.                                                                                   |
+| 69  | [Sculpt Elements](#sculpt-elements)     | Inanimate material behaves like clay in your hands.                                                                                                     |
+| 70  | [Sense](#sense)                         | Choose one kind of object (key, gold, arrow, jug, etc). You can sense the nearest example.                                                              |
+| 71  | [Shield](#shield)                       | A creature you touch is protected from mundane attacks for one minute.                                                                                  |
+| 72  | [Shroud](#shroud)                       | A creature you touch is invisible until they move.                                                                                                      |
+| 73  | [Shuffle](#shuffle)                     | Two creatures you can see instantly switch places.                                                                                                      |
+| 74  | [Sleep](#sleep)                         | A creature you can see falls into a light sleep.                                                                                                        |
+| 75  | [Slick](#slick)                         | Every surface in a 30ft radius becomes extremely slippery.                                                                                              |
+| 76  | [Smoke Form](#smoke-form)               | Your body becomes a living smoke that you can control.                                                                                                  |
+| 77  | [Sniff](#sniff)                         | You can smell even the faintest traces of scents.                                                                                                       |
+| 78  | [Snuff](#snuff)                         | The source of any mundane light you can see is instantly snuffed out.                                                                                   |
+| 79  | [Sort](#sort)                           | Inanimate items sort themselves according to categories you set.                                                                                        |
+| 80  | [Spectacle](#spectacle)                 | A clearly false but impressive illusion of your choice appears, under your control. It may be up to the size of a palace and has full motion and sound. |
+| 81  | [Spellsaw](#spellsaw)                   | A whirling blade flies from your chest, clearing any plant material in its way. It is otherwise harmless.                                               |
+| 82  | [Spider Climb](#spider-climb)           | You can climb surfaces like a spider.                                                                                                                   |
+| 83  | [Summon Cube](#summon-cube)             | Once per second you may summon or banish a 3-foot-wide cube of earth. New cubes must be affixed to the earth or to other cubes.                         |
+| 84  | [Swarm](#swarm)                         | You become a swarm of crows, rats, or piranhas. You can only be harmed by blast attacks.                                                                |
+| 85  | [Telekinesis](#telekinesis)             | You may mentally 1 move item under 60lbs.                                                                                                               |
+| 86  | [Telepathy](#telepathy)                 | Two creatures can hear each other's thoughts, no matter how far apart.                                                                                  |
+| 87  | [Teleport](#teleport)                   | An object or person you can see is transported from one place to another in a 50ft radius.                                                              |
+| 88  | [Target Lure](#target-lure)             | An object you touch becomes the target of any nearby spell.                                                                                             |
+| 89  | [Thicket](#thicket)                     | A thicket of trees and dense brush up to 50ft wide suddenly sprouts up.                                                                                 |
+| 90  | [Summon Idol](#summon-idol)             | A carved stone statue the size of a mule rises from the ground.                                                                                         |
+| 91  | [Time Control](#time-control)           | Time in a 50ft bubble slows down or increases by 10% for 30 seconds.                                                                                    |
+| 92  | [True Sight](#true-sight)               | You see through all nearby illusions.                                                                                                                   |
+| 93  | [Upwell](#upwell)                       | A spring of seawater appears.                                                                                                                           |
+| 94  | [Vision](#vision)                       | You completely control what a creature sees.                                                                                                            |
+| 95  | [Visual Illusion](#visual-illusion)     | A silent, immobile, room-sized illusion of your choice appears.                                                                                         |
+| 96  | [Ward](#ward)                           | A silver circle 50ft across appears on the ground. Choose one species that cannot cross it.                                                             |
+| 97  | [Web](#web)                             | Your wrists shoot thick webbing.                                                                                                                        |
+| 98  | [Widget](#widget)                       | A primitive version of a drawn tool or item appears before you and disappears after a short time.                                                       |
+| 99  | [Wizard Mark](#wizard-mark)             | Your finger can shoot a stream of ulfire-colored paint. This paint is only visible to you and can be seen at any distance, even through solid objects.  |
+| 100 | [X-Ray Vision](#x-ray-vision)           | You can see through walls, dirt, clothing, etc.                                                                                                         |
 
 [back to index](#index)
 <p></p>
