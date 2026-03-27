@@ -17,6 +17,8 @@ Peruse the [repo](https://github.com/yochaigal/cairn) or download the game in ot
 **Cairn** is an adventure game for one facilitator (the **Warden**) and at least one other player.
 Players act as hardened adventurers exploring a dark & mysterious Wood filled with strange folk, hidden treasure, and unspeakable monstrosities.
 
+**Cairn** คือเกมผจญภัยสำหรับ Facilitator (**Warden**) หนึ่งคน และผู้เล่นอย่างน้อยหนึ่งคน ผู้เล่นรับบทบาทเป็นนักผจญภัย hardedned สำรวจผืนป่าที่ความมืดมิดปกคลุมเรื่องราวปริศนา คนประหลาด ขุมทรัพย์ และเรื่องหลอน (monstrosities) ที่ยากจะพรรณา
+
 <details close markdown="block">
   <summary id="index">
     Table of contents
@@ -28,151 +30,162 @@ Players act as hardened adventurers exploring a dark & mysterious Wood filled wi
 
 ## ภาพรวม
 
-**Cairn**  ถูกสร้างขึ้นโดยคำนึงถึงปรัชญาการออกแบบดังต่อไปนี้:
+**Cairn** ถูกสร้างขึ้นโดยคำนึงถึงปรัชญาการออกแบบดังต่อไปนี้:
 
 ### ความเป็นกลาง
 บทบาทของ Warden คือการถ่ายทอดกฎ สถานการณ์ ตัวละคร NPC และเรื่องราวอย่างชัดเจน ในขณะที่ทำหน้าที่เป็นผู้ตัดสินที่เป็นกลาง
 
-### ไร้คลาส
-บทบาทหรือทักษะของตัวละครไม่ได้ถูกจำกัดด้วยคลาสเดียว แต่จะถูกกำหนดด้วยอุปกรณ์ที่พวกเขามีและประสบการณ์ของพวกเขา
+### ไร้คลาส Classless
+
+คลาสไม่ใช่สิ่งที่กำหนดว่าตัวละครมีบทบาทหรือความสามารถอย่างไร 
+อุปกรณ์ที่มีและประกบการณ์ที่สั่งสมมาคือสิ่งที่ทำให้ตัวละครไม่เหมือนใคร
 
 ### ความตาย
-ตัวละครอาจทรงพลัง แต่พวกเขาก็อ่อนแอต่ออันตรายในหลายรูปแบบ ความตายอยู่ใกล้แค่เอื้อมเสมอ แต่มันจะไม่เกิดขึ้นโดยบังเอิญหรือไม่มีสัญญาณเตือนล่วงหน้า
+แม้ตัวละครอาจทรงพลังแต่ใช่ว่าจะไร้เทียมทาน ความตายอยู่ใกล้แค่เอื้อมเสมอแต่จะมีสัญญาณเตือนล่วงหน้าเสมอ และไม่เกิดขึ้นโดยบังเอิญ
 
-### เรื่องราวมาก่อน (Fiction first)
-ความยากหรือผลลัพธ์ของอุปสรรคไม่ได้ขึ้นกับลูกเต๋าเสมอไป แต่ความสำเร็จและความล้มเหลวจะถูกตัดสินโดย Warden ผ่านการสนทนากับผู้เล่นโดยอิงจากองค์ประกอบในโลกของเกม
+### ความสมเหตุสมผล (Fiction first)
+ความยากของอุปสรรคและผลลัพธ์ของการกระทำไม่ได้ขึ้นกับลูกเต๋าเสมอไป Warden คือคนตัดสิน ผ่านการสนทนากับผู้เล่นโดยอิงจากองค์ประกอบในโลกของเกม
 
 ### การเติบโต
-ตัวละครจะเปลี่ยนแปลงไปผ่านความก้าวหน้าในโลกของเกม ได้รับทักษะและความสามารถใหม่ ๆ โดยการเอาชีวิตรอดจากเหตุการณ์อันตรายและเอาชนะอุปสรรค
+เรื่องราวในเกมคือสิ่งที่เปลี่ยนแปลงตัวละคร ก้าวข้ามอุปสรรคและเอาชีวิตรอดจากเหตุการณ์อันตราย เพื่อเรียนรู้ทัก๋ษะและความสามารถใหม่  
 
 ### ทางเลือกของผู้เล่น
-ผู้เล่นควรเข้าใจเหตุผลเบื้องหลังทางเลือกที่พวกเขาได้ทำลงไปเสมอ และควรหมั่นให้ข้อมูลเกี่ยวกับความเสี่ยงที่อาจเกิดขึ้นอย่างเปิดเผย
+Players should always understand the reasons behind the choices they've made, and information about potential risks should be provided freely and frequently.
+
+ผู้เล่นควรเข้าใจเหตุผลของทุกการกระทำ และควรหมั่นให้ข้อมูลเกี่ยวกับความเสี่ยงที่อาจเกิดขึ้นอย่างเปิดเผย
 
 ### หลักการ
-ผู้ดูแลและผู้เล่นแต่ละคนมีแนวทางที่ช่วยส่งเสริมประสบการณ์การเล่นเฉพาะที่เกิดจาก โดยการคิดเชิงวิเคราะห์ การสำรวจ และเรื่องราวที่เกิดขึ้นเอง (emergent narrative)
+The Warden and the players each have guidelines that help foster a specific play experience defined by critical thinking, exploration, and an emergent narrative.
+
+ผู้ดูแล (Warden) และผู้เล่นมีแนวทางที่ช่วยส่งเสริมประสบการณ์การเล่นที่เกิดจาก การคิดเชิงวิเคราะห์ การสำรวจ และเรื่องราวจากการเล่น (emergent narrative)
 
 ### เป้าหมายร่วมกัน
-ผู้เล่นไว้วางใจซึ่งกันและกันในการมีส่วนร่วมกับโลกในเกม เป้าหมายของตัวละคร และความท้าทายของกลุ่ม ดังนั้นโดยทั่วไปแล้วกลุ่มจะทำงานร่วมกันเพื่อบรรลุเป้าหมายร่วมกันในฐานะทีม
+ผู้เล่นต่างไว้วางใจกันในการมีส่วนร่วมกับ โลกในเกม เป้าหมายของตัวละคร และความท้าทายของกลุ่ม เพราะฉะนั้น ผู้เล่นควรร่วมมือกันเพื่อบรรลุเป้าหมายของกลุ่ม
 
 [กลับไปที่สารบัญ](#index)
 <p></p>
 
 ## หลักการสำหรับ Wardens
 ### ข้อมูล
-- ให้ข้อมูลที่เป็นประโยชน์เกี่ยวกับโลกของเกมระหว่างการสำรวจของตัวละคร
-- ผู้เล่นไม่จำเป็นต้องทอยลูกเต๋าเพื่อรับรู้ถึงสถานการณ์ของพวกเขา
-- Be helpful and direct with your answers to their questions.
-- ตอบอย่างซื่อสัตย์ อธิบายอย่างสม่ำเสมอ และแจ้งให้ผู้เล่นทราบเสมอว่าสามารถถามคำถามต่อไปได้
+- ให้ข้อมูลที่เป็นประโยชน์ระหว่างที่ตัวละครสำรวจโลกในเกม
+- ผู้เล่นไม่จำเป็นต้องทอยลูกเต๋าเพื่อเรียนรู้สถานการณ์รอบข้าง
+- ตอบคำถามของผู้เล่นอย่างตรงไปตรงมา
+- ตอบอย่างซื่อสัตย์ อธิบายอย่างสม่ำเสมอ และสื่อให้ผู้เล่นทราบว่าถามคำถามได้เสมอ 
   
-### Difficulty
-- Default to context and realism rather than numbers and mechanics.
-- If something the players want to do is sincerely impossible, no roll will allow them to do it.
-- Is what the player describes and how they leverage the situation sensible? Let it happen.
-- Saves cover a great deal of uncertain situations and are often all that is necessary for risky actions.
+### ความยาก
+- ยึดบริบทและความสมจริงเป็นหลักมากกว่าตัวเลขและกลไกของเกม
+- ถ้าผู้เล่นต้องการทำสิ่งที่เป็นไปไม่ได้ การทอยลูกเต๋าก็ไม่ช่วยให้เป็นไปได้
+- ปล่อยให้ผู้เล่นทำตามสิ่งที่ต้องการตราบใดที่สมเหตุสมผล
+- ใช้ Save สำหรับการกระทำที่สุ่มเสี่ยงและสถานการณ์ที่คาดเดาได้ยาก 
 
-### Preparation
-- The game world is organic, malleable and random. It intuits and makes sharp turns.
-- Use random tables and generators to develop situations, not stories or plots.
-- NPCs remember what the PCs say and do, and how they affect the world.
-- NPCs don't want to die. Infuse their own self-interest and will to live into every personality.
+### การเตรียมตัว
+- โลกในเกมมีความเป็นธรรมชาติ คาดเดาไม่ได้ และเปลี่ยนแปลงอย่างฉับพลัน
+- ไม่ต้องเตรียมเรื่องราวหรือโครงเรื่องแต่ใช้ตารางสุ่มเพื่อสร้างสถานการณ์
+- ตัวละครที่ไม่ใช่ผู้เล่น (NPC) จดจำสิ่งที่ตัวละครผู้เล่นพูดและทำรวมถึงผลกระทบของการกระทำเหล่านั้น
+- NPC รักชีวิตตัวเอง ทุกตัวละครมีแรงจูงใจและความปรารถนาที่จะมีชีวิตอยู่เสมอ
 
 ### Narrative Focus
-- Emergent experience of play is what matters, not math or character abilities. Give the players weapon trainers and personal quests to facilitate improvement and specialization.
-- Pay attention to the needs and wants of the players, then put realistic opportunities in their path.
-- A dagger to your throat will kill you, regardless of your expensive armor and impressive training.
+- ประสบการณ์ที่เกิดขึ้นจากการเล่นคือสิ่งที่สำคัญไม่ใช่ตัวเลขหรือความสามารถของตัวละคร ข่วยให้ตัวละครผู้เล่นเติบโตด้วยการมีผู้ฝึกสอนอาวุธและภารกิจส่วนตัว
+- ให้ความสนใจกับสิ่งที่ผู้เล่นต้องการและให้โอกาสที่จะทำสิ่งนั้นระหว่างการเล่น
+- เพียงมีดสั้นปาดคอก็ฆ่าคุณได้ไม่ว่าจะมีเกราะราคาแพงหรือฝึกฝนมานานแค่ไหนก็ตาม
 
-### Danger
-- The game world produces real risk of pain and death for the player characters.
-- Telegraph serious danger to players when it is present. The more dangerous, the more obvious.
-- Put traps in plain sight and let the players take time to figure out a solution.
-- Give players opportunities to solve problems and interact with the world.
+### ความอันตราย
+- ตัวละครของผู้เล่นมีความเสี่ยงที่จะบาดเจ็บหรือตายได้เสมอ
+- ส่งสัญญาณให้ผู้เล่นทราบถึงความอันตราย ยิ่งอันตรายแค่ไหนยิ่งบอกชัดเจนเท่านั้น
+- เผยกับดักให้เห็นได้ชัดและให้เวลาผู้เล่นในการหาทางออก
+- ให้ผู้เล่นมีโอกาสได้แก้ปัญหาและมีปฏิสัมพันธ์กับโลกในเกม
 
-### Treasure
-- A Treasure is specific to the environment from where it is recovered. It tells a story.
-- Treasure is highly valuable, almost always bulky, and rarely useful beyond its worth and prestige.
-- Relics are not Treasure, though they are useful and interesting.
-- Use Treasure as a lure to exotic locations under the protection of intimidating foes.
+### สมบัติ
+- ทุกสมบัติล้วนเล่าเรื่องราวของสถานที่ที่พบเจอ
+- สมบัติมีมูลค่าสูงและมักจะเทอะทะแต่กลับมีประโยชน์แค่คุณค่าทางเงินตรา
+- Relic ไม่ใช่สมบัติแม้ว่าจะมีประโยชน์และน่าสนใจก็ตาม
+- ใช้สมบัติเป็นเหยื่อล่อให้ไปยังสถานที่แปลกตาที่คุ้มกันโดยศัตรูที่น่าเกรงขาม
 
-### Choice
-- Give players a solid choice to force outcomes when the situation lulls.
-- Use binary "so, A or B?" responses when their intentions are vague.
-- Work together using this conversational method to keep the game moving.
-- Ensure that the player character's actions leave their mark on the game world.
+### ตัวเลือก
+- เมื่อสถานการณ์สงบนิ่ง เสนอทางเลือกแก่ผู้เล่นเพื่อให้เกิดบางอย่างขึ้น
+- เมื่อเจตนาของผู้เล่นนั้นคลุมเครือ ตั้งคำถามที่มีตัวเลือกสองทางเช่น "A หรือ B"
+- ร่วมมือกับผู้เล่นในการทำให้เกมเดินหน้าด้วยการสนทนา
+- ให้ความสำคัญกับผลลัพธ์ของการกระทำของผู้เล่นต่อโลกของเกม
 
 ### Die of Fate
-- Occasionally you will want an element of randomness (e.g. the weather, unique character knowledge, etc.).
-- In these situations, roll 1d6. A roll of 4 or more generally favors the players.
-- A roll of 3 or under tends to mean bad luck for the PCs or their allies.
+- ในบางครั้งคุณอาจต้องการสิ่งที่คาดเดาไม่ได้ (ตัวอย่างเช่น สภาพอากาศ, ความรู้เฉพาะทางของตัวละคร เป็นต้น)
+- ในกรณีเช่นนี้ สถานการณ์มักจะเป็นใจแก่ผู้เล่น หากทอย 1d6 ได้ 4 หรือมากกว่านั้น
+- หากได้ 3 หรือน้อยกว่านั้นถือว่าโชคไม่เข้าข้างผู้เล่น
+
 
 [back to index](#index)
 <p></p>
 
-## Principles for Players
+## หลักการสำหรับผู้เล่น
 ### Agency
-- Attributes and related saves do not define your character. They are tools.
-- Don't ask only what your character would do, ask what you would do, too.
-- Be creative with your intuition, items, and connections.
+- Attribute หรือ Save เป็นเพียงเครื่องมือไม่ใช่ตัวตนของตัวละคร
+- อย่าคิดเพียงว่าตัวละครของคุณจะทำอะไร ตั้งคำถามนี้กับตัวคุณเองด้วยเช่นกัน
+- ประยุกต์ใช้สิ่งของที่มีและผู้คนที่รู้จักอย่างสร้างสรรค์
 
 ### Teamwork
-- Seek consensus from the other players before barreling forward.
+- สอบถามผู้เล่นคนอื่นก่อนที่จะรุดหน้า
+- เข้าใจตรงกันเกี่ยวกับเป้าหมายและข้อจำกัด เคารพผู้เล่นคนอื่นและเห็นแก่ส่วนรวมมากกว่าส่วนตน
 - Stay on the same page about goals and limits, respecting each other and accomplishing more as a group than alone.
 
 ### Exploration
-- Asking questions and listening to detail is more useful than any stats, items, or skills you have.
+- การตั้งคำถามและการตั้งใจฟังรายละเอียดสำคัญกว่าค่าพลัง ไอเท็ม หรือทักษะใดๆ ที่คุณมี
+- เชื่อมั่นในสิ่งที่ Warden อธิบาย แต่ก็อย่าลังเลที่จะหาข้อมูลเพิ่มเติม
 - Take the Warden's description without suspicion, but don't shy away from seeking more information.
-- There is no single correct way forward.
+- ทุกปัญหามีมากกว่าหนึ่งทางออก
 
 ### Talking
+- ปฏิบัติกับ NPCs เหมือนพวกเขามีชีวิตจิตใจ และใช้ความใครรู้เป็นเครื่องนำทางไปหาข้อมูลและทางออกของปัญหาอย่างปลอดภัย
 - Treat NPCs as if they were real people, and rely on your curiosity to safely gain information and solve problems.
-- You'll find that most people are interesting and will want to talk things through before getting violent.
+- ผู้คนส่วนใหญ่ล้วนมีความน่าสนใจและเลือกใช้สันติวิธีก่อนใช้กำลัง
 
 ### Caution
-- Fighting is a choice and rarely a wise one; consider whether violence is the best way to achieve your goals.
-- Try to stack the odds in your favor and retreat when things seem unfavorable.
+- การต่อสู้มักไม่ใช่ทางเลือกที่ดี ไตร่ตรองอยู่เสมอว่าการใช้ความรุนแรงเป็นทางเลือกที่ดีที่สุดหรือไม่ 
+- ใช้ทุกอย่างให้เป็นประโยชน์ในการต่อสู้และล่าถอยเมื่อสถานการณ์ไม่สู้ดี
 
 ### Planning
-- Think of ways to avoid your obstacles through reconnaissance, subtlety, and fact-finding.
-- Do some research and ask around about your objectives.
+- คิดหาวิธีหลีกเลี่ยงอุปสรรคต่างๆ โดยใช้การสำรวจ การใช้เล่ห์เหลี่ยม และการค้นหาข้อมูล
+- ลองค้นคว้าหาข้อมูลและสอบถามเกี่ยวกับเป้าหมายของคุณดู
 
 ### Ambition
-- Set goals and use your meager means to take steps forward.
-- Expect nothing. Earn your reputation.
-- Keep things moving forward and play to see what happens.
+- ใช้สิ่งที่มีอยู่เพื่อไปสู่เป้าหมายที่ตั้งไว้
+- อย่าได้คาดหวังอะไรมาก จงสร้างชื่อเสียงของคุณเอง
+- ปล่อยให้สถานการณ์เดินหน้าและเรียนรู้ผ่านการเล่น
 
 [back to index](#index)
 <p></p>
 
 ## Character Creation
 
-#### Name, Background & Traits
-First, choose or roll your PC’s **name** and **background** from their respective [tables](#name--background-d20). A PC’s background informs their potential knowledge and skills.
+#### ช่ื่อ, ภูมิหลัง & คุณลักษณพ
+ขั้นแรกเลือกหรือสุ่ม **ชื่อ** และ **ภูมิหลัง** ของตัวละครของคุณจาก [tables](#name--background-d20). ภูมิหลังของตัวละครบ่งบอกทักษะและความรู้ที่มี
 
-Next, roll for the rest of your character's **traits** (appearance, speech, mannerisms, beliefs, reputation, etc.) on the [**Character Traits**](#character-traits-d10) tables.
+ขั้นตอนถัดไป สุ่ม **คุณลักษณะ** (appearance, speech, mannerisms, beliefs, reputation, etc.) ของตัวละคร โดยใช้ตาราง [**Character Traits**](#character-traits-d10).
 
-Finally, roll for their **age** (2d20+10).
+ท้ายที่สุดทอยลูกเต๋า (2d20+10) เพื่อสุ่ม **อายุ** ของตัวละคร.
 
 #### Ability Scores
-Player Characters (PCs) have just three attributes:  
-**Strength (STR)**, **Dexterity (DEX)**, and **Willpower (WIL)**. When creating a PC, the player should roll 3d6 for each of their character's ability scores, in order. They may then swap any two of the results.
+ตัวละครของผู้เล่น (Player Characters; PCs) have just three attributes:  
+**Strength (STR)**, **Dexterity (DEX)**, and **Willpower (WIL)**. ผู้เล่นทอยลูกเต๋า 3d6 สำหรับแต่ละ ability scores ของตัวละครและสามารถสลับตัวเลขเหล่านั้นได้ตามใจชอบ 
 
 <details markdown="block">
   <summary>
-Expand For Example
+ขยายเพื่อดูตัวอย่าง
  </summary>
- Ines rolls for her character's **STR**, resulting in a **2**, a **4**, and a **6**, totaling **12**. The next two ability rolls result in a **9** for **DEX** and a **13** for **WIL**. She decides to swap the **12** and the **9**, for a character with **9 STR**, **12 DEX** and **13** **WIL**.
+ Ines ทอยลูกเต๋าสำหรับ **STR**, ได้ **2**, **4**, และ **6** รวมเป็น **12**. และจากการทอยอีกสองครั้งได้ผลรวมเป็น **9** สำหรับ **DEX** และ **13** สำหรับ **WIL**. เธอสลับ **12** กับ  **9** ทำให้ได้ตัวละครที่มี **9 STR**, **12 DEX** และ **13** **WIL**.
 </details>
 
 ### Hit Protection
-Roll 1d6 to determine your PC's starting **Hit Protection** (HP), which reflects their ability to avoid damage in combat. HP does not indicate a character's health or fortitude; nor do they lose it for very long (see **Healing**). If an attack takes a PC's HP exactly to 0, the player must roll on the [**Scars**](/cairn-srd#scars-1) table.
+ทอย 1d6 สำหรับ **Hit Protection** (HP) สิ่งนี้คือความสามารถของตัวละครในการหลีกเลี่ยงความเสียหายระหว่างการต่อสู้ ที่สามารถฟื้นฟูได้ในระยะเวลาอันสั้น (ดูที่ **Healing**) HP ไม่ได้บ่งบอกถึงพลังชีวิตหรือความทรหดของตัวละคร
+หาก HP ลดลงเหลือ 0 จากการโจมติ ผู้เล่นต้องทอยเต๋าที่ตาราง [**Scars**](/cairn-srd#scars-1)
 
 #### Inventory
-Characters have a total of 10 inventory slots: a backpack with six slots, one slot for each hand, and two slots for their upper body (such as the belt, chest, or head). The backpack can also double as an emergency sleeping bag but only if emptied of its contents.
+ตัวละครมี 10 inventory slot ประกอบด้วย กระเป๋าที่มี 6 slot มือมีข้างละ 1 slot และร่างกายส่วนบน (เข็มขัด, ลำตัว หรือ ศรีษะ) อีก 2 slot กระเป๋าสามารถใช้เป็นถุงนอนฉุกเฉินได้หากไม่มีของอยู่ข้างใน
 
-Most items take up one slot, and small items can be bundled together. Slots are abstract and can be rearranged per the Warden's discretion.
+item ส่วนใหญ่กินพื้นที่ 1 slot และ item ขนาดเล็กสามารถมัดรวมเข้าด้วยกันได้ slot เป็นสิ่งสมมติที่ขึ้นกับวิจารณญาณของ Warden
 
-**Bulky** items take up two slots and are typically two-handed or awkward to carry. Anyone carrying a full inventory (i.e. filling all 10 slots) is reduced to 0 HP.
+item ที่ต้อง้ใช้สองมือในการถือหรือถือได้ยาก นับว่าเป็น **Bulky** items ที่กินพื้นที่ 2 slot หากใครถือ item เต็ม 10 slot HP จะถูกลดเหลือ 0
 
-A PC cannot carry more items than their inventory allows. Carts (which must be pulled with both hands), horses, or mules can increase inventory. **Hirelings** can also be paid to carry equipment.
+ตัวละครของผู้เล่น ไม่สามารถถือ item ได้เกินกว่า slot ที่มีอยู่ ผู้เล่นสามารถใช้รถเข็น (ที่ต้องเข็นด้วยสองมือ) ม้าหรือลาเพื่อเพิ่มช่องเก็บของได้ รวมไปถึงการจ้าง **Hirelings** เพื่อมาขนอุปกรณ์ของผู้เล่น
 
 #### Starting Gear
 All PCs begin with:
@@ -609,14 +622,25 @@ If you would like something closer to traditional classes, refer to the list of 
 ### Abilities
 Each of the three **abilities** are used in different circumstances (see **saves**, below).
 
+แต่ละ **ability** จะถูกใช้ในสถานการณ์ที่แตกต่างกันออกไป (ดูที่ **saves** ด้านล่าง)
+
 **Strength (STR)**: Used for saves requiring physical power, like lifting gates, bending bars, resisting poison, etc.
+
+**Strength (STR)**: สำหรับ saves ที่ต้องการความแข็งแกร่งทางกายภาพ เช่น ยกประตู งัดลูกกรง ทนพิษ และอื่น ๆ (9ล9)
 
 **Dexterity (DEX)**: Used for saves requiring poise, speed, and reflexes like dodging, climbing, sneaking, balancing, etc.
 
+**Dexterity (DEX)**: สำหรับ saves ที่ต้องการ ความแม่นยำ ความเร็วและการตอบสนองฉับพลัน เช่น หลบหลีก ปีนป่าย ย่องเบา และทรงตัว เป็นต้น 
+
 **Willpower (WIL)**: Used for saves to persuade, deceive, interrogate, intimidate, charm, provoke, manipulate spells, etc.
+
+**Willpower (WIL)**: ใช้สำหรับ saves เพื่อ โน้มน้าว หลอกหลวง เค้นข้อมูล ข่มขู่ ใช้มนต์เสน่ห์ ยั่วยุ และการใช้เวทย์มนต์ เป็นต้น
+
 
 ### Saves
 A save is a roll to avoid bad outcomes from risky choices and circumstances. PCs roll a d20 for an appropriate ability score. If they roll equal to or under that ability score, they pass. Otherwise, they fail. A 1 is always a success, and a 20 is always a failure.
+
+Save คือการทอยเต๋าเพื่อหลีกเลี่ยงเหตุการณ์ร้ายจากกาากระทำหรือสถานการณ์ทั่สุ่มเสี่ยง PCs ทอยลูกเต๋า d20 เทียบกับ ability score ที่เหมาะสม. ถ้าทอยได้น้อยกว่าหรือเท่ากับ ability score ถือว่าผ่าน มิเข่นนั้น จะถือว่าไม่ผ่าน. 1 นับว่าผ่านเสมอ และ 20 นับว่าไม่ผ่านเสมอ
 
 <details markdown="block">
   <summary>
@@ -628,13 +652,22 @@ Expand For Example
 ### Healing
 Resting for a few moments and having a drink of water restores lost HP but leaves the party exposed. Ability loss (see **Critical Damage**) can usually be restored with a week's rest facilitated by a healer or other appropriate source of expertise. Some of these services are free, while magical or more expedient means of recovery may come at a cost.
 
+การพักจิบน้ำชั่วครู่สามารถฟื้นฟู HP ที่หายไปได้ แต่ถือว่า party exposed ผู้เล่นฟื้นฟู Ability score ที่เสียไปได้ (ดูที่ **Critical Damage**) โดยการพักฟื้นในสถานพยาบาลหรือสถานที่อื่นที่ใกล้เคียง บางที่อาจไม่คิดค่าบริการ แต่หากใช่วิธีที่เฉพาะเจาะจงหรือใช้เวทย์มนต์อาจมีค่าบริการตามมา
+
 ### Deprivation & Fatigue
 A PC **deprived** of a crucial need (such as food or rest) is unable to recover HP or ability scores. Anyone deprived for more than a day adds **Fatigue** to their inventory, one for each day. Each Fatigue occupies one slot and lasts until they are able to recuperate (such as a full night's rest in a safe spot). PCs can also gain Fatigue by **casting spells** or through events in the fiction.
+
+PC ที่ **ขาดแคลน (deprived)** ปัจจัยดำรงชีพ เช่น อาหารหรือการพักผ่อน จะไม่สามารถฟื้นฟู HP และ ability scores ได้ หากขาดแคลนนานกว่าหนึ่งวัน ให้เพิ่ม **Fatigue** ในช่องเก็บของในทุกวัน  Fatigue ใช้พื้นที่ 1  slot และไม่หายไปจนกว่า recuperate (เช่น นอนหลับเต็มอิ่มในพื้นที่ปลอดภัย). PCs สามารถได้ Fatigue ผ่านการ **ร่ายเวทย์ในต์** หรือจากเหตุการณ์ที่เกิดขึ้นในเกม
+
 
 ### Armor
 Before calculating damage to HP, subtract the target's **Armor** value from the result of damage rolls. Shields and similar armor provide a bonus defense (e.g. +1 Armor), but only while the item is held or worn.  
 No one can have more than 3 Armor.  
 Shields, gauntlets, and helms may provide additional benefits according to their use.
+
+ลบความเสียหายจากการโจมตีด้วยค่า **Armor** ของเป้าหมายการโจมตี ก่อนคำนวณความเสียหายต่อ HP โล่และชุดเกราะช่วยเสริมการป้องกัน (เช่น. +1 Armor) เมื่อถือหรือสวมใส่ และไม่สามรถมีค่า Armor ได้มากกว่า 3 
+โล่, gauntlets, และหมวกเหล็กสามารถใช้ประโยชน์อื่นนอกจากการป้องกันได้
+
 
 ### Reactions
 When the PCs encounter an NPC whose reaction to the party is not obvious, the Warden may roll 2d6 and consult the following table:
@@ -644,18 +677,223 @@ When the PCs encounter an NPC whose reaction to the party is not obvious, the Wa
 |    2    |  3-5  |   6-8   | 9-11  |   12    |
 | Hostile | Wary  | Curious | Kind  | Helpful |
 
+หากไม่แน่ชัดว่า NPC จะมีปฏิกริยาอย่างไรกับ PCs  Warden สามารถทอย 2d6 และเทียบกับตารางด้านล่าง
+
+|       |       |       |       |        |
+| :---: | :---: | :---: | :---: | :----: |
+|   2   |  3-5  |  6-8  | 9-11  |   12   |
+| เป็นภัย | ระแวง | ใคร่รู่  |  อารี  | เป็นมิตร |
+
+
 ### Morale
 Enemies must pass a WIL save to avoid fleeing when they take their first casualty and again when they lose half their number. Some groups may use their leader's WIL in place of their own. Lone foes must save when they're reduced to 0 HP. Morale does not affect PCs.
+
+ศัตรูต้องผ่าน WIL save เพื่อหลีกเลี่ยงการเสียขวัญจากความสูญเสียของฝ่ายตัวเองครั้งแรกและเมื่อครึ่งหนึ่งของฝ่ายตัวเองหายไป บางกลุ่มอาจใช้ WIL ของหัวหน้ากลุ่มแทนของตัวเองได้ หากมีศัตรูตัวเดียว ให้ save เมื่อลดเหลือ 0 HPMorale ไม่ส่งผลต่อ PCs.
 
 ### Hirelings
 PCs can hire **hirelings** to aid them in their expeditions. To create a hireling, roll 3d6 for each ability score, then give them 1d6 HP and a simple weapon (d6), then roll on the [**Character Creation**](#character-creation) tables to further flesh them out. Hirelings cost between 1-3gp per day, or a share of whatever treasure the party obtains.
 
+PCs สามารถจ้าง **hirelings** เพื่ออำนวยความสะดวกได้. วิธึการสร้างตัวละคร hireling ประกอบไปด้วย ทอย 3d6 สำหรับแต่ละ  ability score ทอย 1d6 HP ถืออาวุธทั่วไป (d6), และเพิ่มรายละเอียดโดยทอยเทียบกับตาราง [**Character Creation**](#character-creation)  ค่าจ้างของ Hirelings อยู่ที่ 1-3gp ต่อวัน หรือจ่ายด้วยส่วนแบ่งของสมบัติที่หามาได้ 
+
+
 ### Wealth & Treasure
 The most common coin is the gold piece (gp), which is equal to 10 silver pieces (sp) and 100 copper pieces (cp).
 
+เหรียญที่ใช้อย่างแพร่หลายคือเหรียญทอง (gp) มีค่าเท่ากับ 10 เหรียญเงิน (sp) หรือ 100 เหรียญทองแดง (cp)
+
 Treasure is highly valuable, usually bulky, and rarely useful beyond its value. It can be a lure, taking PCs to exotic and even dangerous locations, and is often under the protection of intimidating foes.
 
+[use the same translation in principle]
+
 Villages, strongholds, and ports of call barter and trade based on the local rarity and value of an item or commodity.
+
+หมู่บ้าน ปราสาม และท่าเรือ อาจใช้วิธีแลกเปลี่ยนสิ่งของหรือทรัพย์สินตามความหายาก 
+
+
+## Magic
+**Spellbooks** contain a single spell and take up one slot. They cannot be transcribed or created; instead they are recovered from places like tombs, dungeons, and manors.
+
+**คัมภีร์เวทย์ (Spellbooks)** กินพื้นที่ 1 ช่องและมีเพียงเวทย์มนต์เดียว สิ่งนี้ไม่ได้ถูกเขียนหรือสร้างขึ้นมา แต่ถูกเก็บกู้มาจาก tombs dumgeon และ manors
+
+Spellbooks sometimes display unusual properties or limitations, such as producing a foul or unearthly smell when opened, possessing an innate intelligence, or being legible only when held in moonlight.
+
+บางครั้งคัมภีร์เวทย์อาจมีข้อจำกัดหรือความผืฃิดปกติ ตัวอย่างเช่น ส่งกลิ่นเหม็นเน่าเมื่อเปิด ทรงปัญญา หรือใช้ได้เมื่ออาบแสงจันทร์
+
+Spellbooks will attract the attention of those who seek the arcane power within, and it is considered dangerous to display them openly.
+
+คัมภีร์เวทย์มักเป็นจุดสนใจของผู้ที่แสวงหาพลังเวทย์มนต์ การโชว์ให้เห็นสิ่งนี้ถือว่าเป็นเรื่องอันตราย
+
+
+**Scrolls** are similar to Spellbooks, however:
+- They do not take up an inventory slot.
+- They do not cause fatigue.
+- They disappear after one use.
+
+**ม้วนคาถา** มีความใกล้เคียงกับคัมภีร๋เวทย์ แต่แตกต่างที่
+- ไม่กินพื้นที่ inventory slot.
+- ใช้แล้วไม่มี fatigue.
+- ใช้แล้วหายไปทันที
+
+
+### Casting Spells
+Anyone can cast a spell by holding a Spellbook in both hands and reading its contents aloud. They must then add a Fatigue to inventory, occupying one slot. Given time and safety, PCs can _enhance_ a spell's impact (e.g., affecting multiple targets, increasing its power, etc.) without any additional cost. If the PC is deprived or in danger, the Warden may require a PC to make a WIL save to avoid any ill-effects from casting the spell. Consequences of failure are on par with the intended effect, and may result in added Fatigue, the destruction of the Spellbook, injury, and even death.
+
+ใครก็ตามที่ถือคัมภีร์เวทย์ทั้งสองมือและอ่านเนื้อหาในนั้นก็สามารถร่ายเวทย์มนต์ได้ จากนั้นเพิ่ม Fatigue ลงในช่องเก็บของหนึ่ง slot. ถ้ามีเวลาและไม่มีภัย PCs สามรถ _เพิ่มพลัง_ เวทย์มนต์ได้ (เช่น ใช้กับหลายเป้าหมาย
+เป็นต้น) ถ้า PC deprived หรือตกอยู่ในอันตราย อาจต้องผ่าน a WIL save เพื่อเลี่ยงผลข้างเคียงที่ขึ้นอยู่กับพลังของเวทย์มนต์ที่ทำการร่าย ตั้งแต่ Fatigue คัมภีร์เวทย์ถูกทำลาย อาการบาดเจ็บ หรืออาจถึงตาย
+
+### Relics
+**Relics** are items imbued with a magical spell or power. They do not cause Fatigue. Relics usually have a limited use, as well as a recharge condition. A few examples:
+
+**Relics** คือไอเทมที่มีพลังเวทย์มนต์ การใช้สิ่งนี้ไม่ก่อให้เกิด Fatigue. Relics มักใช้ได้จำกัดครั้ง และมีเงื่อนไขในการทำให้กลับมาใช้ได้อีก ตัวอย่างเช่น:
+
+**Honeyclasp** , 3 charges. A rusted ring that shrinks the bearer to 6" tall. Recharge: place in a thimble-sized cup of royal jelly.
+
+**Honeyclasp** (3 ครั้ง) แหวนขึ้นสนิมที่สวมใส่แล้วจะสูง 6ft  Recharge: place in a thimble-sized cup of royal jelly
+
+**Falconer's Friend** , 1 charge. A bolt-shaped wand carrying the _Haste_ spell. Recharge: fire from a crossbow and recover.
+
+**Falconer's Friend** (1 ครั้ง) คทารูปทรงเหมือนลูกธนู ที่มีเวทย์ _Haste_. Recharge: ยิงด้วยหน้าไม้และไปตามเก็บ
+
+
+**Staff of Silence** , 1 charge. This blackened rod temporarily disables all magic within 50ft. Recharge: bathe in the light of a full moon.
+
+**Staff of Silence** , 1 charge. แม่งเหล็กสีดำ สามารถหยุดพลังเวทย์ได้ชั่วคราวในระยะ 50ft. Recharge: อาบแสงจันทร์ในคืนเดือนเพ็ญ
+
+
+
+**Leycap** , 1 use. Anyone ingesting this green-flecked mushroom loses a Fatigue, but is then required to make a WIL save to avoid its addictive properties. A fail leaves the PC deprived and unable to focus until they can eat another leycap, providing only a brief reprieve from the addiction.
+
+**Leycap** , 1 use. ผู้ที่กินเห็ดลายเขียวจะฟื้นฟู Fatigue ได้ แต่ต้องผ่าน WIL save เพื่อหลีกเลี่ยงอาการเสพติด มิเช่นนั้น PC จะ deprived และไม่สามารถตั้งสติได้จนกว่าจะได้กิน Leycap อีก ซึ่งช่วยอาการเสพติดได้ชั่วคราว
+
+
+## Combat
+
+### Rounds
+The game typically plays without strict time accounting. In a fight or circumstance where timing is helpful, use rounds to keep track of when something occurs. A **round** is roughly ten seconds of in-game time and is comprised of turns.
+
+โดยปกติแล้วจะเล่นโดยไม่ได้นับเวลาเฉพาะเจาะจง หากมีสถานการณ์ที่จังหวะส่งผลต่อผลฃัพธ์ ให้ใช้ rounds ในการนับเวลา หนึ่ง **รอบ (round) ** นานประมาณ 10 วินาทีในเกมและประกอบด้วยหลายตา (turn)
+
+### Actions
+ในหนึ่งตา ตัวละครสามารถเคลื่อนที่ได้ถึง 40ft และทำหนึ่งอย่างได้ เช่น ร่ายเวทย์มนต๋ โจมตี เคลื่อนที่อีกครั้ง หรือ อื่น ๆ ที่เป็นไปได้  
+
+ในแต่ละรอบ PCs ต้องประกาศว่าจะทำอะไรก่อนทอยลูกเต๋า ถ้าตัวละครทำอะไรสุ่มเสี่ยง  ต้องมีการ save สำหรับผู้เล่นหรือ NPCs 
+
+### Turns
+The Warden will telegraph the most likely actions taken by NPCs or monsters. At the start of combat, each PC must make a DEX save to act before their opponents.
+
+Warden ให้สัญญาณว่า NPCs หรือศัตรูจะทำอะไร เมื่อเริ่มต้นการต่อสู้ ตัวละครของผู้เล่นแต่ละตัวต้องผ่าน DEX save เพื่อเริ่มก่อนศัตรู
+
+<details markdown="block">
+  <summary>
+Expand For Example
+ </summary>
+ _Bea has accidentally stumbled onto the stomping grounds of a massive Wood Troll. In order to make a move before the Troll, she makes a DEX save. She fails, and the Troll gets to attack first._
+</details>
+
+### Attacking & Damage
+The attacker rolls their weapon die and subtracts the target's armor, then deals the remaining total to their opponent's HP. Unarmed attacks always do 1d4 damage.
+
+คนที่โจมตีทอยลูกเต๋าตามอาวุธ ลบด้วยเกราะของเป้าหมาย แล้วทำความเสียหายที่เหลือต่อ HP เป้าหมาย การโจมตีมือเปล่าทำความเสียหาย 1d4 เสมอ
+
+<details markdown="block">
+  <summary>
+Expand For Example
+ </summary>
+ _The Wood Troll roars, swinging its club at Bea, who has 5 HP. The club does 1d10 damage and the Warden rolls a 4. They subtract 1 to account for Bea's  leather armor, leaving Bea with 2 HP remaining._
+</details>
+
+### Multiple Attackers
+If multiple attackers target the same foe, roll all damage dice and keep the single highest result.
+
+ถ้ามีผู้โจมตีหลายคนไปยังเป้าหมายเดียวกัน ให้ทอยลูกเต๋าทุกคน และทำความเสียหายตามค่าที่สูงที่สุด
+
+### Attack Modifiers
+If fighting from a position of weakness (such as through cover or with bound hands), the attack is **impaired** and the attacker must roll 1d4 damage regardless of the attacks damage die.
+
+ถ้าเสียเปรียบในการต่อสู้ (เช่นมีเกราะกำบังหรือถูกมัดมือ) ให้นับว่าการโจมตีนั้น  **impaired** และคนที่โจมตีทำความเสียหายได้ 1d4 damage ไม่ว่าจะใช้อาวุธอะไรก็ตาม
+
+If fighting from a position of advantage (such as against a helpless foe or through a daring maneuver), the attack is **enhanced**, allowing the attacker to roll 1d12 damage instead of their normal die.
+
+ถ้าได้เปรียบในการต่อสู้ (เช่น สู้กับคนไม่มีทางสู้ หรือ ใช้ลีลาผาดโผน) ให้นับว่าการโจมตีนั้น
+**enhanced** และทำความเสียหาย 1d12
+ 
+### Dual Weapons
+If attacking with two weapons at the same time, roll both damage dice and keep the single highest result.
+
+หากถืออาวุธสองชิ้นในเวลาเดียวกัน ให้ทอยลูกเต๋าทั้งสองอาวุธ แล้วทำความเสียหายตามค่าที่สูงที่สุด
+
+### Blast
+Attacks with the **blast** quality affect all targets in the noted area, rolling separately for each affected character. Blast refers to anything from explosions to huge cleaving onslaughts to the impact of a meteorite. If unsure how many targets can be affected, roll the related damage die for a result.
+
+การโจมตี **blast** ส่งผลต่อทุกคนในระยะ ทอยค่าความเสียหายสำหรับแต่ละคนที่ได้รับ  Blast สามารถใช้ได้ตั้งแต่ ระเบิด โจมตีกวาดเป็นวงกง้าง ไปจนถึงอุกกาบาต ถ้าไม่แน่ใจว่าจะส่งผลต่อกี่เป้าหมาย ให้ทอยค่าความเสียหายของการโจมตีนั้น
+
+### Critical Damage
+Damage that reduces a target's HP below zero decreases a target's STR by the amount remaining. They must then make a STR save to avoid **critical damage**. Additionally, some enemies will have special abilities or effects that are triggered when their target fails a critical damage save.
+
+ความเสียหายที่ลด HP ของเป้าหมายต่ำกว่า 0 จะลด STR ของเป้าหมายตามส่วนเกินนั้นและต้องผ่าน STR save เพื่อหลีกเลี่ยง **critical damage** นอกจากนี้ ศัตรูบางชนิดมีความสามารถพิเศษเมื่อเป้าหมายการโจมตีโดน critical damage
+
+Any PC that suffers critical damage cannot do anything but crawl weakly, grasping for life. If given aid and rest, they will stabilize. If left untreated, they die within the hour.
+
+PC ที่โดน critical damage ไม่สามารถทำอะไรได้ เพียงแต่ตะเกียกตะกายร้องขอชีวิต อาการจะกลับมาทรงตัวถ้าได้รับการพักผ่อนและดูแลรักษา แต่หากปล่อยไว้จะตายภายในหนึ่งชั่วโมง 
+
+### Ability Score Loss
+If a PC's STR is reduced to 0, they die. If their DEX is reduced to 0, they are paralyzed. If their WIL is reduced to 0, they are delirious.
+Complete DEX and WIL loss renders the character unable to act until they are restored through extended rest or by extraordinary means.
+
+ถ้า STR ของตัวละครลดเหลือ 0 ถือว่าตาย ถ้า  DEX ลดเหลือ 0 ถือว่าเป็นอัมพาต. ถ้า WIL ลดเหลือ 0 ถือว่า delirious.
+หาก DEX และ WIL หายไปหมด จะไม่สารถทำอะไรได้จนกว่าจะฟื้นฟูด้วยการพักผ่อนเป็นระยะเวลานานหรือโดยใช้วิธีพิเศษ 
+
+### Scars
+When damage to a PC reduces their HP to exactly 0, they are sometimes changed irrevocably. See the [**Scars**](/cairn-srd#scars-1) table for more.
+
+เมื่อ PC ได้รับความเสียหายที่  HP เหลือ 0 พอดี จะเกิดการเปลี่ยนแปลงถาวรบางอย่าง ดูรายละเอียดทที่ตาราง [**Scars**](/cairn-srd#scars-1)
+
+
+### Unconsciousness & Death
+When a character dies, the player is free to create a new character or take control of a hireling. They immediately join the party in order to reduce downtime.
+
+ในตอนที่ตัวละครตาย, ผู้เล่นเลือกที่จะสร้างตัวละครใหม่หรือเล่นเป็น hireling แทนได้ ตัวละครนั้นเข้าร่วม party ทันทีเพื่อไม่ให้เสียเวลารอ 
+
+
+### Detachments
+Large groups of similar combatants fighting together are treated as a single **detachment**. When a detachment takes critical damage, it is routed or significantly weakened. When it reaches 0 STR, it is destroyed.
+
+ตัวละครกลุ่มใหญ่ที่ร่วมสู้กันนับว่าเป็น **detachment** เมื่อได้รับ critical damage detachment จะถอยร่นหรืออ่อนแอลงอย่างเห็นได้ชัด และจะถูกทำทำลายเมื่อเหลือ 0 STR
+
+Attacks against detachments by individuals are **impaired** (excluding blast damage).  
+Attacks against individuals by detachments are **enhanced** and deal blast damage.
+
+การโจมตีของตัวบุคคลต่อ detachment นับว่ส **impaired** (ยกเว้นความเสียหายวงกว้าง) การโจมตีของ detachments ต่อตัวบุคคลนับว้า **enhanced** และเป็นความเสียหายวงกว้าง
+
+### Retreat
+Running away from a dire situation always requires a successful DEX save, as well as a safe destination to run to.
+
+ทุกครั้งที่หลบหนีจากสถานการณ์อันตราย ต้องผ่าน DEX save และมีพื้นที่ปลอยภัยให้หนีไป
+
+### Scars
+When an attack reduces a PC's HP to exactly 0, they are uniquely impacted. Look up the result on the table below based on the _total_ damage taken:
+
+เมื่อการโจมตีลด HP ของ PC เหลือ 0 พอดี พวกเขาจะได้รับผลกระทบเฉพาะทาง เทียบความเสียหาย _ทั้งหมด_ ที่ได้รับกับตารางข้างล่าง:
+
+|                                                                                                |                                                                                                                                                                   |
+| ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1                                                                                              | รอยแผลเป็น: ทอย 1d6 &#124; 1: ลำคอ, 2: มือ, 3: ตา, 4: อก, 5: ขา, 6: หู. ทอย 1d6 ถ้ามีค่ามากกว่า max HP ของคุณ ให้ใช้ค่านี้แทน                                                   |
+|                                                                                                |
+| 2                                                                                              | Rattling Blow: You’re disoriented and shaken. Describe how you refocus. Roll 1d6. If the total is higher than your max HP, take the new result.                   |
+| สั่นสะท้าน: คุณมึนงงและสั่นไหว บรรยายว่ากลับมาตั้งสติได้อย่างไร  ทอย 1d6 ถ้ามีค่ามากกว่า max HP ของคุณ ให้ใช้ค่านี้แทน |
+| 3                                                                                              | Walloped: You’re sent flying and land flat on your face, winded. You are deprived until you rest for a few hours. Then, roll 1d6. Add that amount to your max HP. |
+ตัวปลิว:  คุณโดนซัดปลิวจนจอดสนิท คุณ deprived  จนกว่าได้พักฟื้นไม่กี่ชั่วโมง หลังจากนั้นทอย 1d6 ถ้ามีค่ามากกว่า max HP ของคุณ ให้ใช้ค่านี้แทน                        
+|
+| 4   | Broken : Roll 1d6 &#124; 1-2: Leg, 3-4: Arm, 5: Rib, 6: Skull. Once mended, roll 2d6. If the total is higher than your max HP, take the new result. กระดูกหัก ทอย 1d6 1-2 ขา 3-4 แขน 5 ซี่โครง 6 กระโหลก เมื่อสมานแล้วทอย 2d6 ถ้ามีค่ามากกว่า max HP ของคุณ ให้ใช้ค่านี้แทน                                                                 |
+| 5   | Diseased: You’re afflicted with a gross, uncomfortable infection. When you get over it, roll 2d6. If the total is higher than your max HP, take the new result.  โรคร้าย: คุณมีอาการติดเชื้อที่น่าขยะแขยง เมื่อหายดีแล้วทอย 2d6 ถ้ามีค่ามากกว่า max HP ของคุณ ให้ใช้ค่านี้แทน
+|
+| 6   | Reorienting Head Wound: Roll 1d6 &#124; 1-2: STR, 3-4: DEX, 5-6: WIL. Roll 3d6. If the total is higher than your current ability score, take the new result.                                                              |
+| 7   | Hamstrung: You can barely move until you get serious help and rest. After recovery, roll 3d6. If the total is higher than your max DEX, take the new result.                                                              |
+| 8   | Deafened: You cannot hear anything until you find extraordinary aid. Regardless, make a WIL save. If you pass, increase your max WIL by 1d4.                                                                              |
+| 9   | Re-brained: Some hidden part of your psyche is knocked loose. Roll 3d6. If the total is higher than your max WIL, take the new result.                                                                                    |
+| 10  | Sundered: An appendage is torn off, crippled or useless. The Warden will tell you which. Then, make a WIL save. If you pass, increase your max WIL by 1d6.                                                                |
+| 11  | Mortal Wound: You are deprived and out of action. You die in one hour unless healed. Upon recovery, roll 2d6. Take the new result as your max HP.                                                                         |
+| 12  | Doomed: Death seemed ever so close, but somehow you survived. If your next save against critical damage is a fail, you die horribly. If you pass, roll 3d6. If the total is higher than your max HP, take the new result. |
 
 ## Magic
 **Spellbooks** contain a single spell and take up one slot. They cannot be transcribed or created; instead they are recovered from places like tombs, dungeons, and manors.
