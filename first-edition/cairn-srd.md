@@ -705,15 +705,15 @@ Villages, strongholds, and ports of call barter and trade based on the local rar
 ## Magic
 **Spellbooks** contain a single spell and take up one slot. They cannot be transcribed or created; instead they are recovered from places like tombs, dungeons, and manors.
 
-**คัมภีร์เวทย์ (Spellbooks)** กินพื้นที่ 1 ช่องและมีเพียงเวทย์มนต์เดียว สิ่งนี้ไม่ได้ถูกเขียนหรือสร้างขึ้นมา แต่ถูกเก็บกู้มาจาก tombs dumgeon และ manors
+**คัมภีร์เวทย์ (Spellbooks)** ใช้พื้นที่หนึ่งช่องและมีเพียงเวทย์มนต์เดียว สิ่งนี้ไม่ได้ถูกเขียนหรือสร้างขึ้นมาแต่ต้องค้นหาจากสถานที่ต่างๆ เช่น สุสาน คุกใต้ดิน และคฤหาสน์
 
 Spellbooks sometimes display unusual properties or limitations, such as producing a foul or unearthly smell when opened, possessing an innate intelligence, or being legible only when held in moonlight.
 
-บางครั้งคัมภีร์เวทย์อาจมีข้อจำกัดหรือความผืฃิดปกติ ตัวอย่างเช่น ส่งกลิ่นเหม็นเน่าเมื่อเปิด ทรงปัญญา หรือใช้ได้เมื่ออาบแสงจันทร์
+บางครั้งคัมภีร์เวทย์อาจมีคุณสมบัติหรือข้อจำกัดที่ผิดปกติ เช่น ส่งกลิ่นเหม็นเน่าเมื่อเปิด ทรงปัญญา หรืออ่านได้ภายใต้แสงจันทร์
 
 Spellbooks will attract the attention of those who seek the arcane power within, and it is considered dangerous to display them openly.
 
-คัมภีร์เวทย์มักเป็นจุดสนใจของผู้ที่แสวงหาพลังเวทย์มนต์ การโชว์ให้เห็นสิ่งนี้ถือว่าเป็นเรื่องอันตราย
+คัมภีร์เวทย์จะดึงดูดความสนใจของผู้ที่แสวงหาพลังลึกลับที่อยู่ภายใน และการแสดงคัมภีร์เวทย์อย่างเปิดเผยถือเป็นเรื่องอันตราย
 
 
 **Scrolls** are similar to Spellbooks, however:
@@ -721,41 +721,41 @@ Spellbooks will attract the attention of those who seek the arcane power within,
 - They do not cause fatigue.
 - They disappear after one use.
 
-**ม้วนคาถา** มีความใกล้เคียงกับคัมภีร๋เวทย์ แต่แตกต่างที่
-- ไม่กินพื้นที่ inventory slot.
-- ใช้แล้วไม่มี fatigue.
+**ม้วนคาถา** มีลักษณะคล้ายกับคัมภีร๋เวทย์แต่มีข้อแตกต่างคือ
+- ไม่เปลืองช่องเก็บของ
+- ใช้แล้วไม่ได้รับความเหนื่อยล้า
 - ใช้แล้วหายไปทันที
 
 
 ### Casting Spells
 Anyone can cast a spell by holding a Spellbook in both hands and reading its contents aloud. They must then add a Fatigue to inventory, occupying one slot. Given time and safety, PCs can _enhance_ a spell's impact (e.g., affecting multiple targets, increasing its power, etc.) without any additional cost. If the PC is deprived or in danger, the Warden may require a PC to make a WIL save to avoid any ill-effects from casting the spell. Consequences of failure are on par with the intended effect, and may result in added Fatigue, the destruction of the Spellbook, injury, and even death.
 
-ใครก็ตามที่ถือคัมภีร์เวทย์ทั้งสองมือและอ่านเนื้อหาในนั้นก็สามารถร่ายเวทย์มนต์ได้ จากนั้นเพิ่ม Fatigue ลงในช่องเก็บของหนึ่ง slot. ถ้ามีเวลาและไม่มีภัย PCs สามรถ _เพิ่มพลัง_ เวทย์มนต์ได้ (เช่น ใช้กับหลายเป้าหมาย
-เป็นต้น) ถ้า PC deprived หรือตกอยู่ในอันตราย อาจต้องผ่าน a WIL save เพื่อเลี่ยงผลข้างเคียงที่ขึ้นอยู่กับพลังของเวทย์มนต์ที่ทำการร่าย ตั้งแต่ Fatigue คัมภีร์เวทย์ถูกทำลาย อาการบาดเจ็บ หรืออาจถึงตาย
+ใครๆ ก็สามารถร่ายเวทมนตร์ได้โดยการถือคัมภีร์เวทย์ในมือทั้งสองข้างและอ่านเนื้อหาออกมาดังๆ จากนั้นเพิ่มความเหนื่อยล้าลงในช่องเก็บของซึ่งใช้พื้นที่หนึ่งช่อง ถ้ามีเวลาและไม่มีภัยตัวละครผู้เล่น สามรถ _เพิ่มความสามารถ_ เวทย์มนต์ได้ (เช่น ส่งผลต่อเป้าหมายหลายเป้าหมาย เพิ่มพลังของเวทมนตร์ ฯลฯ) หากตัวละครผู้เล่นขาดแคลนหรือตกอยู่ในอันตราย อาจต้องผ่าน WIL save เพื่อเลี่ยงผลข้างเคียงที่ขึ้นอยู่กับพลังของเวทย์มนต์ที่ทำการร่าย ตั้งแต่ความเหนื่อยล้า คัมภีร์เวทย์ถูกทำลาย อาการบาดเจ็บ หรืออาจถึงตาย
 
 ### Relics
 **Relics** are items imbued with a magical spell or power. They do not cause Fatigue. Relics usually have a limited use, as well as a recharge condition. A few examples:
 
-**Relics** คือไอเทมที่มีพลังเวทย์มนต์ การใช้สิ่งนี้ไม่ก่อให้เกิด Fatigue. Relics มักใช้ได้จำกัดครั้ง และมีเงื่อนไขในการทำให้กลับมาใช้ได้อีก ตัวอย่างเช่น:
+**ของวิเศษ** คือสิ่งของที่ได้รับการปลุกเสกด้วยเวทมนตร์ การใช้สิ่งนี้ไม่ก่อให้เกิดความเหนื่อยล้า โดยปกติแล้วของวิเศษจะมีจำนวนครั้งการใช้งานที่จำกัดและมีเงื่อนไขการชาร์จพลังใหม่ ตัวอย่างเช่น
 
 **Honeyclasp** , 3 charges. A rusted ring that shrinks the bearer to 6" tall. Recharge: place in a thimble-sized cup of royal jelly.
 
-**Honeyclasp** (3 ครั้ง) แหวนขึ้นสนิมที่สวมใส่แล้วจะสูง 6ft  Recharge: place in a thimble-sized cup of royal jelly
+**Honeyclasp** (3 ครั้ง) แหวนขึ้นสนิมที่สวมใส่แล้วจะตัวเล็กลงเหลือ 6 นิ้ว วิธีชาร์จพลัง: วางแหวนลงในถ้วยขนาดเท่าปลายนิ้วที่บรรจุรอยัลเจลลี่
+
 
 **Falconer's Friend** , 1 charge. A bolt-shaped wand carrying the _Haste_ spell. Recharge: fire from a crossbow and recover.
 
-**Falconer's Friend** (1 ครั้ง) คทารูปทรงเหมือนลูกธนู ที่มีเวทย์ _Haste_. Recharge: ยิงด้วยหน้าไม้และไปตามเก็บ
+**Falconer's Friend** (1 ครั้ง) ไม้เท้าทรงลูกศรที่บรรจุเวทมนตร์ _Haste_. วิธีชาร์จพลัง: ยิงด้วยหน้าไม้และไปตามเก็บ
 
 
 **Staff of Silence** , 1 charge. This blackened rod temporarily disables all magic within 50ft. Recharge: bathe in the light of a full moon.
 
-**Staff of Silence** , 1 charge. แม่งเหล็กสีดำ สามารถหยุดพลังเวทย์ได้ชั่วคราวในระยะ 50ft. Recharge: อาบแสงจันทร์ในคืนเดือนเพ็ญ
-
+**Staff of Silence** , 1 charge. ไม้เท้าสีดำนี้จะทำให้เวทมนตร์ทั้งหมดในรัศมี 50 ฟุตใช้การไม่ได้ชั่วคราว วิธีชาร์จพลัง: อาบแสงจันทร์ในคืนเดือนเพ็ญ
 
 
 **Leycap** , 1 use. Anyone ingesting this green-flecked mushroom loses a Fatigue, but is then required to make a WIL save to avoid its addictive properties. A fail leaves the PC deprived and unable to focus until they can eat another leycap, providing only a brief reprieve from the addiction.
 
-**Leycap** , 1 use. ผู้ที่กินเห็ดลายเขียวจะฟื้นฟู Fatigue ได้ แต่ต้องผ่าน WIL save เพื่อหลีกเลี่ยงอาการเสพติด มิเช่นนั้น PC จะ deprived และไม่สามารถตั้งสติได้จนกว่าจะได้กิน Leycap อีก ซึ่งช่วยอาการเสพติดได้ชั่วคราว
+
+**Leycap** ใช้ได้ 1 ครั้ง ผู้ใดที่กินเห็ดสีเขียวลายจุดนี้จะเสียค่าความเหนื่อยล้าไป 1 หน่วย ผู้ที่กินเห็ดลายเขียวจะฟื้นฟูค่าความเหนื่อยล้าไป 1 หน่วย แต่ต้องผ่าน WIL save เพื่อหลีกเลี่ยงเพื่อหลีกเลี่ยงฤทธิ์เสพติด หากล้มเหลวตัวละครจะขาดแคลนและไม่สามารถตั้งสติได้จนกว่าจะได้กิน Leycap อีกซึ่งจะช่วยบรรเทาอาการเสพติดได้เพียงชั่วคราวเท่านั้น
 
 
 ## Combat
