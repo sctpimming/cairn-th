@@ -626,38 +626,38 @@ Each of the three **abilities** are used in different circumstances (see **saves
 
 **Strength (STR)**: Used for saves requiring physical power, like lifting gates, bending bars, resisting poison, etc.
 
-**Strength (STR)**: สำหรับ saves ที่ต้องการความแข็งแกร่งทางกายภาพ เช่น ยกประตู งัดลูกกรง ทนพิษ และอื่น ๆ (9ล9)
+**Strength (STR)**: สำหรับ save ที่ใช้ความแข็งแกร่งทางกายภาพ เช่น ยกประตู งัดลูกกรง ทนพิษ เป็นต้น
 
 **Dexterity (DEX)**: Used for saves requiring poise, speed, and reflexes like dodging, climbing, sneaking, balancing, etc.
 
-**Dexterity (DEX)**: สำหรับ saves ที่ต้องการ ความแม่นยำ ความเร็วและการตอบสนองฉับพลัน เช่น หลบหลีก ปีนป่าย ย่องเบา และทรงตัว เป็นต้น 
+**Dexterity (DEX)**: สำหรับ save ที่ต้องการความแม่นยำ ความเร็วและการตอบสนองฉับพลัน เช่น หลบหลีก ปีนป่าย ย่องเบา และทรงตัว เป็นต้น 
 
 **Willpower (WIL)**: Used for saves to persuade, deceive, interrogate, intimidate, charm, provoke, manipulate spells, etc.
 
-**Willpower (WIL)**: ใช้สำหรับ saves เพื่อ โน้มน้าว หลอกหลวง เค้นข้อมูล ข่มขู่ ใช้มนต์เสน่ห์ ยั่วยุ และการใช้เวทย์มนต์ เป็นต้น
+**Willpower (WIL)**: ใช้สำหรับ save เพื่อโน้มน้าว ล่อลวง เค้นข้อมูล ข่มขู่ ใช้มนต์เสน่ห์ ยั่วยุ และการใช้เวทย์มนต์ เป็นต้น
 
 
 ### Saves
 A save is a roll to avoid bad outcomes from risky choices and circumstances. PCs roll a d20 for an appropriate ability score. If they roll equal to or under that ability score, they pass. Otherwise, they fail. A 1 is always a success, and a 20 is always a failure.
 
-Save คือการทอยเต๋าเพื่อหลีกเลี่ยงเหตุการณ์ร้ายจากกาากระทำหรือสถานการณ์ทั่สุ่มเสี่ยง PCs ทอยลูกเต๋า d20 เทียบกับ ability score ที่เหมาะสม. ถ้าทอยได้น้อยกว่าหรือเท่ากับ ability score ถือว่าผ่าน มิเข่นนั้น จะถือว่าไม่ผ่าน. 1 นับว่าผ่านเสมอ และ 20 นับว่าไม่ผ่านเสมอ
+Save คือการทอยลูกเต๋าเพื่อหลีกเลี่ยงเหตุการณ์ร้ายจากการกระทำหรือสถานการณ์ที่สุ่มเสี่ยง PCs ทอยลูกเต๋า d20 เทียบกับ ability score ที่เกี่ยวข้อง ถ้าทอยได้น้อยกว่าหรือเท่ากับ ability score ถือว่าผ่าน ไม่เช่นนั้นถือว่าไม่ผ่าน โดย 1 นับว่าผ่านเสมอและ 20 นับว่าไม่ผ่านเสมอ
 
 <details markdown="block">
   <summary>
-Expand For Example
+กดเพื่อดูตัวอย่าง
  </summary>
- _Bea encounters a group of heavily-armed Goblins standing guard before a tunnel entrance. Her player carefully plots a course, recognizing that her 13 DEX makes sneaking past the guards the best option. She rolls a d20, and resulting in a 10 – a success!_
+ _Bea เผชิญหน้ากับกลุ่มก็อบลินติดอาวุธที่กำลังเฝ้ายามอยู่หน้าทางเข้าอุโมงค์ ตัวละครของเธอวางแผนเส้นทางและการแอบเข้าไปเป็นตัวเลือกที่ดีที่สุดเพราะเธอมี 13 DEX เธอทอยลูกเต๋า d20 และได้ 10 ถือว่าลอบเร้นสำเร็จ!_
 </details>
 
 ### Healing
 Resting for a few moments and having a drink of water restores lost HP but leaves the party exposed. Ability loss (see **Critical Damage**) can usually be restored with a week's rest facilitated by a healer or other appropriate source of expertise. Some of these services are free, while magical or more expedient means of recovery may come at a cost.
 
-การพักจิบน้ำชั่วครู่สามารถฟื้นฟู HP ที่หายไปได้ แต่ถือว่า party exposed ผู้เล่นฟื้นฟู Ability score ที่เสียไปได้ (ดูที่ **Critical Damage**) โดยการพักฟื้นในสถานพยาบาลหรือสถานที่อื่นที่ใกล้เคียง บางที่อาจไม่คิดค่าบริการ แต่หากใช่วิธีที่เฉพาะเจาะจงหรือใช้เวทย์มนต์อาจมีค่าบริการตามมา
+การพักจิบน้ำชั่วครู่สามารถฟื้นฟู HP ที่สูญเสียไปได้แต่จะทำให้ปาร์ตี้ตกอยู่ในความเสี่ยง ผู้เล่นฟื้นฟูค่าความสามารถที่เสียไปได้ (ดูที่ **ความเสียหายร้ายแรง**) โดยการพักฟื้นในสถานพยาบาลหรือสถานที่เหมาะสม บางที่ไม่คิดค่าบริการ แต่หากใช้เวทย์มนต์หรือต้องการความรวดเร็วอาจมีค่าบริการตามมา
 
 ### Deprivation & Fatigue
 A PC **deprived** of a crucial need (such as food or rest) is unable to recover HP or ability scores. Anyone deprived for more than a day adds **Fatigue** to their inventory, one for each day. Each Fatigue occupies one slot and lasts until they are able to recuperate (such as a full night's rest in a safe spot). PCs can also gain Fatigue by **casting spells** or through events in the fiction.
 
-PC ที่ **ขาดแคลน (deprived)** ปัจจัยดำรงชีพ เช่น อาหารหรือการพักผ่อน จะไม่สามารถฟื้นฟู HP และ ability scores ได้ หากขาดแคลนนานกว่าหนึ่งวัน ให้เพิ่ม **Fatigue** ในช่องเก็บของในทุกวัน  Fatigue ใช้พื้นที่ 1  slot และไม่หายไปจนกว่า recuperate (เช่น นอนหลับเต็มอิ่มในพื้นที่ปลอดภัย). PCs สามารถได้ Fatigue ผ่านการ **ร่ายเวทย์ในต์** หรือจากเหตุการณ์ที่เกิดขึ้นในเกม
+ตัวละครผู้เล่นที่ **ขาดแคลน (deprived)** ปัจจัยดำรงชีพ (เช่น อาหารหรือการพักผ่อน) จะไม่สามารถฟื้นฟู HP และค่าความสามารถได้ หากขาดแคลนนานกว่าหนึ่งวันจะได้รับ **ความเหนื่อยล้า (Fatigue)** ในช่องเก็บของหนึ่งหน่วยต่อวัน ความเหนื่อยล้าแต่ละหน่วยใช้พื้นที่ 1 ช่อง และคงอยู่จนกว่าตัวละครพักฟื้น(เช่น นอนหลับเต็มอิ่มในพื้นที่ปลอดภัย) ตัวละครผู้เล่นยังสามารถได้รับความเหนื่อยล้าจากการ **ร่ายเวทย์มนต์** หรือจากเหตุการณ์ที่เกิดขึ้นในเกมได้อีกด้วย
 
 
 ### Armor
@@ -665,50 +665,42 @@ Before calculating damage to HP, subtract the target's **Armor** value from the 
 No one can have more than 3 Armor.  
 Shields, gauntlets, and helms may provide additional benefits according to their use.
 
-ลบความเสียหายจากการโจมตีด้วยค่า **Armor** ของเป้าหมายการโจมตี ก่อนคำนวณความเสียหายต่อ HP โล่และชุดเกราะช่วยเสริมการป้องกัน (เช่น. +1 Armor) เมื่อถือหรือสวมใส่ และไม่สามรถมีค่า Armor ได้มากกว่า 3 
-โล่, gauntlets, และหมวกเหล็กสามารถใช้ประโยชน์อื่นนอกจากการป้องกันได้
+ก่อนคำนวณความเสียหายต่อ HP ให้หักความเสียหายจากการโจมตีด้วยค่า **เกราะ (Armor)** ของเป้าหมายการโจมตี โล่และชุดเกราะช่วยเสริมการป้องกัน (เช่น +1 Armor) เมื่อถือหรือสวมใส่และไม่สามารถมีค่าเกราะได้มากกว่า 3 
+โล่ ถุงมือ และหมวกเหล็กสามารถใช้ประโยชน์อื่นนอกจากการป้องกันได้
 
 
 ### Reactions
-When the PCs encounter an NPC whose reaction to the party is not obvious, the Warden may roll 2d6 and consult the following table:
-
-|         |       |         |       |         |
-| :-----: | :---: | :-----: | :---: | :-----: |
-|    2    |  3-5  |   6-8   | 9-11  |   12    |
-| Hostile | Wary  | Curious | Kind  | Helpful |
-
-หากไม่แน่ชัดว่า NPC จะมีปฏิกริยาอย่างไรกับ PCs  Warden สามารถทอย 2d6 และเทียบกับตารางด้านล่าง
+หากไม่แน่ชัดว่า NPC มีปฏิกริยากับตัวละครผู้เล่นอย่างไร Warden สามารถทอยลูกเต๋า 2d6 และดูตารางต่อไปนี้
 
 |       |       |       |       |        |
 | :---: | :---: | :---: | :---: | :----: |
 |   2   |  3-5  |  6-8  | 9-11  |   12   |
-| เป็นภัย | ระแวง | ใคร่รู่  |  อารี  | เป็นมิตร |
+| เป็นภัย | ระแวง | ใคร่รู่  |  ใจดี  | เป็นมิตร |
 
 
-### Morale
+### ขวัญกำลังใจ (Morale)
 Enemies must pass a WIL save to avoid fleeing when they take their first casualty and again when they lose half their number. Some groups may use their leader's WIL in place of their own. Lone foes must save when they're reduced to 0 HP. Morale does not affect PCs.
 
-ศัตรูต้องผ่าน WIL save เพื่อหลีกเลี่ยงการเสียขวัญจากความสูญเสียของฝ่ายตัวเองครั้งแรกและเมื่อครึ่งหนึ่งของฝ่ายตัวเองหายไป บางกลุ่มอาจใช้ WIL ของหัวหน้ากลุ่มแทนของตัวเองได้ หากมีศัตรูตัวเดียว ให้ save เมื่อลดเหลือ 0 HPMorale ไม่ส่งผลต่อ PCs.
+ศัตรูต้องผ่าน WIL save เพื่อหลีกเลี่ยงการเสียขวัญจากความสูญเสียครั้งแรกและเมื่อสูญเสียกำลังพลไปครึ่งหนึ่ง บางกลุ่มอาจใช้ค่า WIL ของผู้นำแทนของตัวเองได้ ศัตรูที่อยู่โดดเดี่ยวต้องผ่าน save เมื่อ HP ลดเหลือ 0 HP ขวัญกำลังใจไม่ส่งผลต่อตัวละครผู้เล่น
 
 ### Hirelings
 PCs can hire **hirelings** to aid them in their expeditions. To create a hireling, roll 3d6 for each ability score, then give them 1d6 HP and a simple weapon (d6), then roll on the [**Character Creation**](#character-creation) tables to further flesh them out. Hirelings cost between 1-3gp per day, or a share of whatever treasure the party obtains.
 
-PCs สามารถจ้าง **hirelings** เพื่ออำนวยความสะดวกได้. วิธึการสร้างตัวละคร hireling ประกอบไปด้วย ทอย 3d6 สำหรับแต่ละ  ability score ทอย 1d6 HP ถืออาวุธทั่วไป (d6), และเพิ่มรายละเอียดโดยทอยเทียบกับตาราง [**Character Creation**](#character-creation)  ค่าจ้างของ Hirelings อยู่ที่ 1-3gp ต่อวัน หรือจ่ายด้วยส่วนแบ่งของสมบัติที่หามาได้ 
+ตัวละครผู้เล่นสามารถจ้าง **ลูกน้อง** เพื่อช่วยในการสำรวจได้ ในการสร้างลูกน้องให้ทอยลูกเต๋า 3d6 สำหรับแต่ละค่าความสามารถ จากนั้นให้ค่า HP 1d6 และอาวุธธรรมดา (d6) แก่ลูกน้อง แล้วทอยลูกเต๋าในตาราง [**การสร้างตัวละคร**](#character-creation) เพื่อเพิ่มรายละเอียดให้กับลูกน้อง ลูกน้องมีค่าใช้จ่ายระหว่าง 1-3 gp ต่อวันหรือส่วนแบ่งจากสมบัติที่กลุ่มผู้เล่นได้รับ
 
 
 ### Wealth & Treasure
 The most common coin is the gold piece (gp), which is equal to 10 silver pieces (sp) and 100 copper pieces (cp).
 
-เหรียญที่ใช้อย่างแพร่หลายคือเหรียญทอง (gp) มีค่าเท่ากับ 10 เหรียญเงิน (sp) หรือ 100 เหรียญทองแดง (cp)
+เหรียญที่ใช้กันทั่วไปมากที่สุดคือเหรียญทอง (gp) ซึ่งมีค่าเท่ากับเหรียญเงิน (sp) 10 เหรียญ และเหรียญทองแดง (cp) 100 เหรียญ
 
 Treasure is highly valuable, usually bulky, and rarely useful beyond its value. It can be a lure, taking PCs to exotic and even dangerous locations, and is often under the protection of intimidating foes.
 
-[use the same translation in principle]
+ใช้สมบัติเป็นเหยื่อล่อให้ไปยังสถานที่แปลกตาที่คุ้มกันโดยศัตรูที่น่าเกรงขาม
 
 Villages, strongholds, and ports of call barter and trade based on the local rarity and value of an item or commodity.
 
-หมู่บ้าน ปราสาม และท่าเรือ อาจใช้วิธีแลกเปลี่ยนสิ่งของหรือทรัพย์สินตามความหายาก 
-
+หมู่บ้าน ป้อมปราการ และท่าเรือต่าง ๆ แลกเปลี่ยนสินค้าและค้าขายโดยพิจารณาจากความหายากและมูลค่าของสินค้าหรือวัตถุดิบในท้องถิ่น
 
 ## Magic
 **Spellbooks** contain a single spell and take up one slot. They cannot be transcribed or created; instead they are recovered from places like tombs, dungeons, and manors.
